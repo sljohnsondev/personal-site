@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = (props) => {
   return (
-    <button onClick={() => props.handleClick() }>Sam's Button</button>
+    <h1>This is a nav</h1>
   );
 }
 

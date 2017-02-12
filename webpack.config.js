@@ -11,10 +11,7 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/
       },
-      {
-        test: /\.(jpg|png)$/,
-        loader: 'url-loader',
-      },
+      { test: /\.(png|jpg)$/, loader: "url-loader?limit=5000" }
       { test: /\.css$/, loader: 'style!css' },
       { test: /\.scss$/, loader: 'style!css!sass' }
     ]
