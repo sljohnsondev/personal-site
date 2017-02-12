@@ -1,11 +1,10 @@
 {
-  "name": "chuckle-norris",
+  "name": "personal-site",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server -d --watch",
-    "test": "mocha -w --compilers js:babel-core/register --require helpers/test-setup.js app/**/*.spec.js"
+    "start": "webpack-dev-server -d --watch"
   },
   "author": "",
   "license": "ISC",
@@ -14,17 +13,14 @@
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.22.0",
-    "chai": "^3.5.0",
     "css-loader": "^0.26.1",
     "css-modules-require-hook": "^4.0.5",
-    "enzyme": "^2.7.1",
+    "file-loader": "^0.10.0",
     "jsdom": "^9.9.1",
-    "mocha": "^3.2.0",
     "node-sass": "^4.3.0",
-    "react-addons-test-utils": "^15.4.2",
     "sass-loader": "^4.1.1",
-    "sinon": "^1.17.7",
     "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   },

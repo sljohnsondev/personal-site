@@ -11,6 +11,7 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/
       },
+      { test: /\.(png|jpg)$/, loader: "url-loader?limit=5000" }
       { test: /\.css$/, loader: 'style!css' },
       { test: /\.scss$/, loader: 'style!css!sass' }
     ]
@@ -22,9 +23,4 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.json', '.jsx', '.css', '.scss']
   },
-  externals: {
-    'cheerio': 'window',
-    'react/lib/ExecutionEnvironment': true,
-    'react/lib/ReactContext': true,
-  }
 }
