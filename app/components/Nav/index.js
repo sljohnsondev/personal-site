@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Button = (props) => {
+const Nav = (props) => {
   return (
     <button onClick={() => props.handleClick() }>Sam's Button</button>
   );
 }
 
-export default Button;
+export default Nav;

@@ -1,12 +1,14 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Header from './components/Header/Header'
+import Header from './components/Header'
 import './styles'
 
 const App = () => {
   return (
-    <Header />
+    <div>
+      <Header />
+    </div>
   );
 }
 
-render(<App />, document.querySelector('.application'));
+render(<App />, document.querySelector('.app'));
