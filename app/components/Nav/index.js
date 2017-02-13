@@ -1,7 +1,7 @@
 import React from 'react';
 import './nav-style'
 
-const Nav = (props) => {
+const Nav = () => {
   return (
     <div className='container-nav'>
       <h1>This is a nav</h1>

@@ -1,19 +1,33 @@
-h1 {
-  color: black;
+.section-header {
+  height: 20vh;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: white;
+  padding-top: 25px;
 }
 
 .icon-info-container {
+  margin-left: 35px;
   display: inline-flex;
   justify-content: center;
 }
 
 .sj-info {
   display: inline-block;
-  margin-top: 25px;
+  margin-top: 35px;
+  h1 {
+    font-size: 28px;
+  }
+  h3 {
+    padding: 3px 0 0 1px;
+  }
+
 }
 
+
 .icon-img {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   margin-left: -20px
 }
