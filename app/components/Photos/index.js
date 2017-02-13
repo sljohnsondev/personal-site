@@ -4,7 +4,8 @@ import './photos-style';
 const Photos = () => {
   return (
     <div className='section-photos main'>
-      photos
+      <h2>Photos</h2>
+      <h4>Some pictures I've taken</h4>
     </div>
   );
 }
