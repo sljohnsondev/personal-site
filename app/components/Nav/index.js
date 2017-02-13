@@ -1,8 +1,11 @@
 import React from 'react';
+import './nav-style'
 
 const Nav = (props) => {
   return (
-    <h1>This is a nav</h1>
+    <div className='container-nav'>
+      <h1>This is a nav</h1>
+    </div>
   );
 }
 
