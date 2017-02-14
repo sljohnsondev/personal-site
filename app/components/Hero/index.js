@@ -4,7 +4,7 @@ import './hero-style'
 const Hero = () => {
   return (
     <div className='container-hero'>
-      <a className='nav-hook' name='home'></a>
+      <a className='nav-hook home' name='home'></a>
       <div className='img-hero'/>
     </div>
   );
