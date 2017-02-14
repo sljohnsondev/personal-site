@@ -1,4 +1,41 @@
 .section-code {
   margin-top: 15vh;
   display: block;
+
+}
+
+.projects {
+  margin: 40px 25px 0 25px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-flow: wrap;
+}
+
+.project {
+  margin: 20px;
+  h3, h5, img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img{
+    margin: auto;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0 10px;
+  }
+  h5 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .tech {
+    font-weight: 600;
+  }
+}
+
+.last-project {
+  margin-bottom: 100px;
 }
