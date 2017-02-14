@@ -64,19 +64,19 @@
 
 	var _Code2 = _interopRequireDefault(_Code);
 
-	var _About = __webpack_require__(195);
+	var _About = __webpack_require__(197);
 
 	var _About2 = _interopRequireDefault(_About);
 
-	var _Photos = __webpack_require__(198);
+	var _Photos = __webpack_require__(200);
 
 	var _Photos2 = _interopRequireDefault(_Photos);
 
-	var _Footer = __webpack_require__(201);
+	var _Footer = __webpack_require__(203);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
-	__webpack_require__(209);
+	__webpack_require__(211);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -21619,7 +21619,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-header {\n  height: 130px;\n  position: fixed;\n  top: 0px;\n  width: 100%;\n  background: #fafbfa;\n  padding-top: 15px; }\n\n.icon-info-container {\n  margin-left: 35px;\n  display: inline-flex;\n  justify-content: center; }\n\n.sj-info {\n  display: inline-block;\n  margin-top: 35px; }\n  .sj-info h1 {\n    font-size: 28px; }\n  .sj-info h3 {\n    padding: 3px 0 0 1px; }\n\n.icon-img {\n  width: 120px;\n  height: 120px;\n  margin-left: -20px; }\n", ""]);
+	exports.push([module.id, ".section-header {\n  height: 130px;\n  position: fixed;\n  top: 0px;\n  width: 100%;\n  background: #fafbfa;\n  padding-top: 15px; }\n\n.icon-info-container {\n  margin-left: 35px;\n  display: inline-flex;\n  justify-content: center; }\n\n.sj-info {\n  display: inline-block;\n  margin-top: 35px; }\n  .sj-info h1 {\n    font-size: 28px; }\n  .sj-info h3 {\n    padding: 3px 0 0 9px; }\n\n.icon-img {\n  width: 120px;\n  height: 120px;\n  margin-left: -20px; }\n", ""]);
 
 	// exports
 
@@ -22035,7 +22035,7 @@
 
 
 	// module
-	exports.push([module.id, ".container-nav {\n  float: right;\n  margin: 35px 30px 0 0;\n  padding: 20px; }\n  .container-nav h3, .container-nav p {\n    display: inline-block;\n    font-size: 20px; }\n  .container-nav p {\n    margin: 0 10px; }\n  .container-nav a:before {\n    background-color: #000; }\n", ""]);
+	exports.push([module.id, ".container-nav {\n  float: right;\n  margin: 35px 30px 0 0;\n  padding: 20px; }\n  .container-nav h3, .container-nav p {\n    display: inline-block;\n    font-size: 20px; }\n  .container-nav p {\n    margin: 0 15px; }\n  .container-nav a:before {\n    background-color: #000; }\n", ""]);
 
 	// exports
 
@@ -22068,7 +22068,7 @@
 	  return _react2.default.createElement(
 	    'div',
 	    { className: 'container-hero' },
-	    _react2.default.createElement('a', { className: 'nav-hook', name: 'home' }),
+	    _react2.default.createElement('a', { className: 'nav-hook home', name: 'home' }),
 	    _react2.default.createElement('div', { className: 'img-hero' })
 	  );
 	};
@@ -22110,7 +22110,7 @@
 
 
 	// module
-	exports.push([module.id, ".container-hero {\n  padding-top: 128px;\n  margin: 0 20px 0 25px; }\n\n.img-hero {\n  background: url(" + __webpack_require__(190) + ") no-repeat center center;\n  background-size: cover;\n  height: 75vh;\n  text-align: center;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  margin: 0 20 0 20px; }\n", ""]);
+	exports.push([module.id, ".container-hero {\n  padding-top: 131px;\n  margin: 0 20px 0 25px; }\n\n.img-hero {\n  background: url(" + __webpack_require__(190) + ") no-repeat center center;\n  border-radius: 4px;\n  background-size: cover;\n  height: 75vh;\n  text-align: center;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  margin: 0 20 0 20px; }\n", ""]);
 
 	// exports
 
@@ -22162,19 +22162,37 @@
 	        { className: 'project' },
 	        _react2.default.createElement('img', { src: __webpack_require__(194) }),
 	        _react2.default.createElement(
-	          'h3',
-	          null,
-	          'Shoot The Breeze'
-	        ),
-	        _react2.default.createElement(
-	          'h5',
-	          null,
-	          'Authenticated chat app built on top of Firebase'
-	        ),
-	        _react2.default.createElement(
-	          'h5',
-	          { className: 'tech' },
-	          'React.js - Firebase - Enzyme/Chai/Sinon'
+	          'article',
+	          { className: 'project-text' },
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Shoot The Breeze'
+	          ),
+	          _react2.default.createElement(
+	            'h5',
+	            null,
+	            'Authenticated chat app built on top of Firebase'
+	          ),
+	          _react2.default.createElement(
+	            'h5',
+	            { className: 'tech' },
+	            'React.js - Firebase - Enzyme/Chai/Sinon'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'project-links' },
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'project-link', href: 'https://github.com/sljohnson32/shoot-the-breeze' },
+	              _react2.default.createElement('img', { src: __webpack_require__(195) })
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'project-link', href: 'https://shoot-the-breeze-8b841.firebaseapp.com/' },
+	              _react2.default.createElement('img', { src: __webpack_require__(196) })
+	            )
+	          )
 	        )
 	      ),
 	      _react2.default.createElement(
@@ -22182,19 +22200,37 @@
 	        { className: 'project' },
 	        _react2.default.createElement('img', { src: __webpack_require__(194) }),
 	        _react2.default.createElement(
-	          'h3',
-	          null,
-	          'Weatherly'
-	        ),
-	        _react2.default.createElement(
-	          'h5',
-	          null,
-	          'Weather forecast app built on external APIs'
-	        ),
-	        _react2.default.createElement(
-	          'h5',
-	          { className: 'tech' },
-	          'React.js - Redux - External API - Sass - Enzyme/Chai'
+	          'article',
+	          { className: 'project-text' },
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Weatherly'
+	          ),
+	          _react2.default.createElement(
+	            'h5',
+	            null,
+	            'Weather forecast app built on external APIs'
+	          ),
+	          _react2.default.createElement(
+	            'h5',
+	            { className: 'tech' },
+	            'React.js - Redux - External API - Sass - Enzyme/Chai'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'project-links' },
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'project-link', href: 'https://github.com/sljohnson32/redux-weather-app' },
+	              _react2.default.createElement('img', { src: __webpack_require__(195) })
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'project-link', href: '' },
+	              _react2.default.createElement('img', { src: __webpack_require__(196) })
+	            )
+	          )
 	        )
 	      ),
 	      _react2.default.createElement(
@@ -22202,19 +22238,37 @@
 	        { className: 'project last-project' },
 	        _react2.default.createElement('img', { src: __webpack_require__(194) }),
 	        _react2.default.createElement(
-	          'h3',
-	          null,
-	          'Chuckle Norris Joke Machine'
-	        ),
-	        _react2.default.createElement(
-	          'h5',
-	          null,
-	          'Random joke generator built on external API'
-	        ),
-	        _react2.default.createElement(
-	          'h5',
-	          { className: 'tech' },
-	          'React.js - React Router - External API - Sass - Enzyme/Chai'
+	          'article',
+	          { className: 'project-text' },
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Chuckle Norris Joke Machine'
+	          ),
+	          _react2.default.createElement(
+	            'h5',
+	            null,
+	            'Random joke generator built on external API'
+	          ),
+	          _react2.default.createElement(
+	            'h5',
+	            { className: 'tech' },
+	            'React.js - React Router - External API - Sass - Enzyme/Chai'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'project-links' },
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'project-link', href: 'https://github.com/sljohnson32/chuckle-norris' },
+	              _react2.default.createElement('img', { src: __webpack_require__(195) })
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'project-link', href: '' },
+	              _react2.default.createElement('img', { src: __webpack_require__(196) })
+	            )
+	          )
 	        )
 	      )
 	    )
@@ -22258,7 +22312,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-code {\n  margin-top: 15vh;\n  display: block; }\n\n.projects {\n  margin: 40px 25px 0 25px;\n  display: flex;\n  justify-content: space-around;\n  align-content: center;\n  flex-flow: wrap; }\n\n.project {\n  margin: 20px; }\n  .project h3, .project h5, .project img {\n    display: flex;\n    justify-content: center;\n    align-items: center; }\n  .project img {\n    margin: auto; }\n  .project h3 {\n    font-size: 20px;\n    font-weight: 600;\n    margin: 20px 0 10px; }\n  .project h5 {\n    font-size: 14px;\n    margin-bottom: 10px; }\n  .project .tech {\n    font-weight: 600; }\n\n.last-project {\n  margin-bottom: 100px; }\n", ""]);
+	exports.push([module.id, ".section-code {\n  margin-top: 10vh;\n  display: block; }\n\n.projects {\n  margin: 40px 0 40px 15%;\n  display: block;\n  align-items: center; }\n\n.project {\n  display: flex;\n  align-items: center;\n  margin: 40px 40px 40px 0;\n  width: 90%;\n  height: auto; }\n  .project h3, .project h5, .project img {\n    display: block; }\n  .project img {\n    margin: 10px;\n    border-radius: 4px; }\n  .project h3 {\n    font-size: 22px;\n    margin-bottom: 20px; }\n  .project h5 {\n    font-size: 14px;\n    margin-bottom: 18px;\n    line-height: 1.4; }\n  .project .tech {\n    font-weight: 600; }\n\n.project-text {\n  display: inline-block;\n  width: auto;\n  margin: 20px; }\n  .project-text img {\n    height: 40px;\n    width: 40px;\n    display: inline-block;\n    margin: 0 10px;\n    position: relative;\n    z-index: -1; }\n\n.project-link {\n  margin-left: 10px; }\n  .project-link a {\n    height: 100px; }\n\n.last-project {\n  margin-bottom: 60px; }\n", ""]);
 
 	// exports
 
@@ -22271,6 +22325,18 @@
 
 /***/ },
 /* 195 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/png;base64,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"
+
+/***/ },
+/* 196 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAR9JREFUaIHtmUFuwjAQRR8Re5SLVRG9QDlBpJ6iKKcClpykJcsqbboZFuM2URCtAoSxq3nSKI5tKf97JhsPOI7jxEIBbIB3QCKNT2AHLIfi1xGIGxtV/+QFaIESyE+TEw0LVOMXqrkALRsJC6lQopq30NX88OQfgRo4EJxeOD8FOaq5ga6mhtS9tbcr5qdCAMn+2HCL8eScy0CBnuQr8HDF/FQIIDM68bM7fPSWCMBvJZQE/QwkSfIZmPfG/g9Y4AascQPWuAFr3IA1bsAaN2CNG7DGDVjjBqz5FwbaMF5YChnJ90X0Rwbsw8uTjZaLWIXnHrRdI2jTIPYGRw480zU4fu5gK+xbRmPjZeiuQDseTQTizkWDdpTucfvtOElwBPtj8fzsePIAAAAAAElFTkSuQmCC"
+
+/***/ },
+/* 197 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22283,7 +22349,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	__webpack_require__(196);
+	__webpack_require__(198);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22324,13 +22390,13 @@
 	exports.default = About;
 
 /***/ },
-/* 196 */
+/* 198 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(197);
+	var content = __webpack_require__(199);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(182)(content, {});
@@ -22350,7 +22416,7 @@
 	}
 
 /***/ },
-/* 197 */
+/* 199 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(181)();
@@ -22358,13 +22424,13 @@
 
 
 	// module
-	exports.push([module.id, ".section-about p {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 40px auto;\n  width: 45%;\n  font-size: 19px;\n  text-align: center;\n  line-height: 1.6; }\n\n.first-last-line {\n  font-weight: bolder; }\n", ""]);
+	exports.push([module.id, ".section-about p {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 40px auto;\n  width: 50%;\n  font-size: 19px;\n  text-align: center;\n  line-height: 1.6; }\n\n.first-last-line {\n  font-weight: bolder; }\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 198 */
+/* 200 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22377,7 +22443,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	__webpack_require__(199);
+	__webpack_require__(201);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22402,13 +22468,13 @@
 	exports.default = Photos;
 
 /***/ },
-/* 199 */
+/* 201 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(200);
+	var content = __webpack_require__(202);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(182)(content, {});
@@ -22428,7 +22494,7 @@
 	}
 
 /***/ },
-/* 200 */
+/* 202 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(181)();
@@ -22442,7 +22508,7 @@
 
 
 /***/ },
-/* 201 */
+/* 203 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22455,7 +22521,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	__webpack_require__(202);
+	__webpack_require__(204);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22474,60 +22540,55 @@
 	      _react2.default.createElement(
 	        'a',
 	        { className: 'social-media', href: 'https://github.com/sljohnson32', target: '_blank' },
-	        _react2.default.createElement('img', { src: __webpack_require__(204), alt: 'Sam\'s GitHub profile' })
+	        _react2.default.createElement('img', { src: __webpack_require__(195), alt: 'Sam\'s GitHub profile' })
 	      ),
 	      ' |',
 	      _react2.default.createElement(
 	        'a',
 	        { className: 'social-media', href: 'https://www.facebook.com/sljohnson32', target: '_blank' },
-	        _react2.default.createElement('img', { src: __webpack_require__(205), alt: 'Sam\'s Facebook profile' })
+	        _react2.default.createElement('img', { src: __webpack_require__(206), alt: 'Sam\'s Facebook profile' })
 	      ),
 	      ' |',
 	      _react2.default.createElement(
 	        'a',
 	        { className: 'social-media', href: 'https://www.instagram.com/sljohnson_', target: '_blank' },
-	        _react2.default.createElement('img', { src: __webpack_require__(206), alt: 'Sam\'s Instagram profile' })
+	        _react2.default.createElement('img', { src: __webpack_require__(207), alt: 'Sam\'s Instagram profile' })
 	      ),
 	      ' |',
 	      _react2.default.createElement(
 	        'a',
 	        { className: 'social-media', href: 'https://www.twitter.com/sjohnson_', target: '_blank' },
-	        _react2.default.createElement('img', { src: __webpack_require__(207), alt: 'Sam\'s Twitter profile' })
+	        _react2.default.createElement('img', { src: __webpack_require__(208), alt: 'Sam\'s Twitter profile' })
 	      ),
 	      ' |',
 	      _react2.default.createElement(
 	        'a',
 	        { className: 'social-media', href: 'https://www.linkedin.com/in/sljohnson', target: '_blank' },
-	        _react2.default.createElement('img', { src: __webpack_require__(208), alt: 'Sam\'s LinkedIn profile' })
-	      )
-	    ),
-	    _react2.default.createElement(
-	      'section',
-	      { className: 'email-msg' },
+	        _react2.default.createElement('img', { src: __webpack_require__(209), alt: 'Sam\'s LinkedIn profile' })
+	      ),
+	      ' |',
 	      _react2.default.createElement(
-	        'p',
-	        null,
-	        'or hit me up at  ',
-	        _react2.default.createElement(
-	          'a',
-	          { href: 'mailto:sljohnson32@gmail.com' },
-	          'sljohnson32@gmail.com'
-	        )
+	        'a',
+	        { className: 'social-media', href: 'mailto:sljohnson32@gmail.com', target: '_blank' },
+	        _react2.default.createElement('img', { src: __webpack_require__(210), alt: 'Sam\'s email' })
 	      )
 	    )
 	  );
 	};
+	// <section className="email-msg">
+	//   <p>or hit me up at  <a href="mailto:sljohnson32@gmail.com">sljohnson32@gmail.com</a></p>
+	// </section>
 
 	exports.default = Footer;
 
 /***/ },
-/* 202 */
+/* 204 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(203);
+	var content = __webpack_require__(205);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(182)(content, {});
@@ -22547,7 +22608,7 @@
 	}
 
 /***/ },
-/* 203 */
+/* 205 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(181)();
@@ -22555,49 +22616,49 @@
 
 
 	// module
-	exports.push([module.id, ".section-footer {\n  margin: 50px auto 35vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  margin-top: 25px;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  height: 20px;\n  width: 20px;\n  margin: 25px; }\n\n.email-msg {\n  display: flex;\n  justify-content: center;\n  font-family: 'Montserrat', sans-serif;\n  font-size: 18px;\n  padding-bottom: 30px; }\n  .email-msg a:before {\n    background-color: #000; }\n", ""]);
+	exports.push([module.id, ".section-footer {\n  margin: 50px auto 35vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px; }\n\n.email-msg {\n  display: flex;\n  justify-content: center;\n  font-family: 'Montserrat', sans-serif;\n  font-size: 18px;\n  padding-bottom: 30px; }\n  .email-msg a:before {\n    background-color: #000; }\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 204 */
-/***/ function(module, exports) {
-
-	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAGKAAABigEzlzBYAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpMwidZAAAByElEQVQ4EYWTT0tUURiHbyohgW5aSKIyq8QUBKHQjdo2dCHiwpWLFu1buOoz9CnCT6AIgtEIigjujFA0yIW7EKwws9LnOXPeO6Mo84PnvO95/825Z+4tirpa624xjb8ER3CZ0TdmLtTYk2JtOTOE/QRXTbBmEFT0FjH1JcEfEEN+4/+Bvxl9Y5G3dhJUzCg8SQxZx/cxouG2NWeNcXvSyR7gqCqMw3cw8RPewkM4APUUPNV76IA9eAwbMAHp8pz+H35BBZqpQoG19tg71cIyD8rTeexTN8hLvAtz1nyFeKI0o/E+3liFyn+itr2xRs5aTyOHnqg3bzDFsQvyyPcpclHroD4HKTfKS1Rx5Nru5hq5zhxOvQ5ycgx8kZMeP2I5lIyxeLSxnDD2Td/X3qnBiMEmek7ed+gf2PcBild5s4xdyf4i1uJ4VNzkj2Lfgf+aA3yvtFOQtMV6Br7hq2DS4icQ6sY5AXNykW0VW6ofz+QuPIJZ8NeVlxsXvIZv3Xm2/nj6RLwoP7h9GIdh2IQu6AHzNob8gFU7eEfT8BnKjzb+iQGCO2DzF1CNJ9pmb+4jPAMVvbUdazkVfwYWcqZx0GticzmuKXuuAZF/fSkzy1FUAAAAAElFTkSuQmCC"
-
-/***/ },
-/* 205 */
-/***/ function(module, exports) {
-
-	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAGKAAABigEzlzBYAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpMwidZAAABHklEQVQ4Ee2SsU4CQRCGTxSVWAiJnaHCUFESSXweSx+Hlrew8zFsLayoxMRIjICi/3c3w+3pXOAB+JOPnd2Z/W92QpbFOrDjttaxmIovsRYrMRKoUSz1v250r5If49tWzHYy8q8M7aJ3guFSfIhrgby2DIrzSrJnZ3RAhxPRF5g8CkQu15EHyepJX+kEPYhngkiR0ZkKz8WlXfB5XWnfFR3xJHhiKH/vjbIUMQ8fNOtCfIq5GAjkd7KoI5KtvKww8o6O7YwPvCT5PIyM+J9Q2BQ8kW4we7OYZ72KrTpVxYm4FZj4E+8UY34h/qmuI/5871aNGWI2dDtj81ebYSUJn8lhckbo++jj5dSTS95BclQJw3zUUeXWrpu90fZJ/QIz6DueNiPWVgAAAABJRU5ErkJggg=="
-
-/***/ },
 /* 206 */
 /***/ function(module, exports) {
 
-	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAGKAAABigEzlzBYAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpMwidZAAABl0lEQVQ4EZ2Uuy5EURSGz7gkGhIqnsEDjEqOSTQ6aoVC4xkUKiHhDTQKiUThEgmFRkElOkrTiEZE4VK4jPF/2/pPTsRMJlbyzVp7rbX/vc+aM5NlWTYm6qIpvsITt6IRfXh62FsVhYgLrQTa5RFLqp2IfEbvhvy4yMWK8AFtH4cDPoK32DQrb8sVINTo0UdF/GXMqyso1xG30YNVELK5oTsSiJyJE8GpNZGLGcHh5HKBEacPlFmAZ7Gk+LctKuE+e+8tCgxuNxqPSwq9isEj2I+ePfnliJtcH2VsS5wSyA5+XBLwsD2Gw6idy29HnIQizoYUjMTCc3Kt7F0bVpI9ybiR7V3BVSymw3MbbgLEmGv08koU5mHVlBkQj4LHXRWei8JknsmTVoNiQtCbXgMLTSmBzQt/I5eK18WauCjlFxRj7GkpRMOcuBcWtH9QjoNshRDPThOP8Oyq/KbYETSOCurX4ki8CttLBE2EPPDJSPaHZ5C34i7WjIC/i75Yc7D3JI26Er76f/0N4pxiMX5vnNwJ9HIwItVvNNa/E2iLPq8AAAAASUVORK5CYII="
+	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAqNJREFUaIHt2kuoTVEYB/DfOVFyvV8hjORRQhgI5RHCRISJR8lAYSATUZIMUIoyVUZeRRl5jBh4jQhRpDyvZySvFPcy+M7h4p5z9r32sc+t86912nutb6/v+6/1rW99e51NoBf2oRHfa7w8x/6CzXKFi0sYgZO4h2a1iRxGYgnuYiox8l8xIzOz2o5Z+CZmQiMOZ2pO+3Acz/IYLKajo+EuBuULN7Xq8+XQDPlKUrWOOoGs0ek/6hqGNZiD0QobkQiHn/AOL/EQd3AOVyt1+j8I5LEV2wr6ruII3oidtTMa0BuDMAlLsQk9K3VebQJ5HMIqHMUWPErw3BkMSKqgmtgojN+O5ZIZD2NxM4lgNQl0FW5zGjuFuyRBP7G53kgiXE0XmuVXllvO+By6iY3psxh9Es5ANQlMFIZfLtHeFbuEa/Ut1L0X0QhuJVFSTQJD8UqMams4gNU4huvCnYdgHO7jdRIl1STQgA9l2heIcLriX5RUcxHn0FSmvbNf7tJudPhUosMTSHMNrMfMFveT8bHCM/NxopX6j1indAD4iTQJrMQYkYwR/n2+jPxZjMeoP+r7YiB24EElpWlHoYuYl1C2VPTZjN0ShtFaXAP98EWk2BVRiwT6i9FPlDul7UJdxG5axFulF2J3ref7QyR0H9Il0IzpeNKi7gqmlJC/huEl2s4kVZomgQ2Y0OJ+LfqUke+NC1o/VCuVAP6FNAlcK5QiZoswWQ63cfBflNbiIm4T6gSyRp1A1qgTyBp1AlmjTiBr1AlkjSKBXKZWtA/54s8Lf58MdASMRmNeHK4u8/uZTq1jLhbjWE68l14Ss3BKeh97LBIfkDwt0T5MvACda0OfeWHnQvEyNK3Y0BN78Vj8a5hGaRIDUa40tbHPr+LgbA96wA8Rh8DvSpG90QAAAABJRU5ErkJggg=="
 
 /***/ },
 /* 207 */
 /***/ function(module, exports) {
 
-	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAGKAAABigEzlzBYAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpMwidZAAABs0lEQVQ4EX2UPUsdQRRAJ08jiCipkkbQJ+IfsAoYrbSRhBR2fiAK+Q+phfTa5A/YxSZ2IW0iklKsUohoISFaGA1oojHnjHuXZZ/vXTh778z9mLszs5tSSo+gAZ2knf9xJFkkxOC7gphTO/8P+uAlDMIxfIQr6IKnkEZhRQOpdxedNPHtQSyk/gpvYAueQ5oDHW8dFNKNdiULyxcw5hr+wk0xdm4XliHNgxPyAVy9Kq6mr5pcHR/im4Q0Ar8hip1jv4dZGIBXoM99iphqIRvJ4iaugc4/hY6EM8YHUC8SfuenIMsizyOIrnS6D7cQCXUdhS+I8Y2yPON5CQbXk02IpGqxiPuGP5+sjx+wACfFpAkhcWoxDm1x5TNoe8r5eNXv4BdY6KEuoqPwuRVjoDRyW/d2Gkb3F7adtBP3T1mH7+B9yx1qKL2wAT+hfmeiGy+k9g7Ed9Z20SWCIsGVxMJ2YpF9yN8Wunwjq03DEDyBGZiAHjDJwDIYextW4RR8E0+vlBdYmxD3yAJVvCuf4DWExHbEuDwxJ+xoHJrgpvuL8Er41R+AEt35ui2is2WFWpRb0DHmP6VVlj/4QUOyAAAAAElFTkSuQmCC"
+	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAABDdJREFUaIHV2luIVWUUB/DfOfoQdPFaZiVBQ05m1EOSZReyiy9ChWUkGEVBGZH0oEVXpwvUkGR3CIIuUBYkWRA9FIEPo5RGQRmZRGmplZQOWYGOc3pY32mGYdx7n9l7nPEPe75v9lnnW2t9a+11+fYhMB6rsAONUX7twjNJZrU06cJ0rMH36DU6UUM7rsMWXEjs/AFcOmJitY7L0CMsYQfeHFFxhoZ3sLOOk4Q5jjRswdR6+me0+nwWeqGeRzXaMbYF2hrOwxxMGh5xdGODiIqNIl8oqkA7Xsfs9H9vUQYtoKbPIzbhJnyb96UiLjRd7MppuCPde0woPwaP46h+87FDvMZgIm7BNGGFM8sqUMNrIubOxit5C7aINtyLe3Aq9uDVxGu/sHota4E8Bc7FBXgQP5YUdiDm4hs8iU7hLhelz7bhfsxK/A+JPAXmpHHtkMU8NJ7FTzhZ7P4uURU08d4AGQZFngIT07i7dflyMVNszE5sx/s4q9/nf4pgMT5rkaJ5oOqIQ7jPArH7bbgGX7fKt5U8UDWW4iPhRrAPN7a6yEgqsA4zhBV6RSn/S6uLjKQCRLRZlUuVgVaegYboG2CFPv9cMcj9Kq6eIoIVtcAjBemqRC8eziMqqkBHKVGGjlwFhqOcbsdzouHYn67vROI6vWpmVSpQF662GbcJBZ5O11bcLsqFh+TUN62gqihUw4tYgjewHL8PoJkilHkUx4s8UBpVWWCREL4TN+MMfIJ/8Q8+Fu6zWITNu8TRSCVoiGpzMHTIT+djRDb9PM0XiQiyXQi7Cj/jIBYKq38p3CpvA3tEj5EpW1kFLkk012OyKAnW4eh+NMeIBqUbE4QlGjg/Z+1cBapwoVlp/BRXCcGX4u9+NPtwN47D/ERL9BulUIUCzXL3D5yS5psHoWvem6bvAZ9QlnkVCuxN4yTh93D2IHTNe9twQprvKcu8CgU2pvFyfIC/8DyO7UczTiSyvfhQnG0Spw+lUEUeWC+i0DK8i1uxWmTfZiu6QMT+heLZWCai0EYlUYUFDuprwJ8QSlyMr0S0WYwvRG+7Fk/hHNyngiPNqjLx2+JEYTmmih2eP4DmRLyFG4Q7ramCcVEFarLzQUNk199ErbNQZOLmydpMXJHWeUBYqijfTOQp0J3GyfJPJnpFnbMad2IerhTK/YCX8EKaF8Ek4eKZkSpPgfVpXICXCzLeKpJWWVybxq48wqxSoibORXeLo4/DhbbEc4NDu1GHAqVEQ1SXdXwmKs4pGYuWQS2tvSTxqifeuWdDWRZool240+F6lbo+8cxCBxpFo1DzleasNGYe95XAXuHzm1T8gkNacKMKsmeVOOLfkTUVGI6HcrhRb/75VfSwRxpmiJf0///UYO6IitMa5okicmVN1Opdwgprje4fe9SFnFeLDq/5Sso4rBQdVc8ovg6I3qNT9Nf+A/jrZQ0aILtSAAAAAElFTkSuQmCC"
 
 /***/ },
 /* 208 */
 /***/ function(module, exports) {
 
-	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAGKAAABigEzlzBYAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpMwidZAAABkklEQVQ4EZWUvy6EQRRHl0UhCv8ShWqFbLSi0ci+gBeg0HoDHkaiUYhaRUJEotEoEBWNhAQhQbBYzpn9rnwrLH7JmXvnzp373ZmxioVCoQ8WYBou4Qxa4R3+pS2y3SS3UAZlsX/JAs9wD/ozoIp18/dxkdTo6Bh/INtqRy05snDq1I/EesSTnWKchf4s+t2xomiW8mlSrou98Ahv0AV38AI+QjvYrXkXoMZhEK5gD6qQrmEd5wm86HMYArUGfuAaTmECjNUgruIIfxKSdhljwU5G6uHCZi7+gH+Sm9u9uM8TlD3fKyiD+lplojLWCSU4gG3wqO71tb2OeScGlTb8FMiGKLzEfAwqMAfKO1QVhx0wWbyrYVAbYMzOPPIohCwQR63hV+3oJ0V3Wo9nMRXxm/o0fay9WaEsLxk3R4GIN8ybFWpIjN2Z9cgNalaoIfG3SRsJ+WeOPwX3eYnKmHztInK1rRbqBqUv0WWPQeQLSf6/gceO9Q78tHEFuw++itX9qahVOAR/S8bzr2S3y1AC11s+ADlyZhfxE+CwAAAAAElFTkSuQmCC"
+	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAABHdJREFUaIHt2muIVVUUB/DfjK+SUiutlCTtZWOBPexDjZBlGWplZY8PRt+KCiKCMoiwG0WUSQ8rrPBjQzYQFIZlmEU4lSM9vmRpD6IYMyvRkrGaxunD2pe5Mzn3nHPHaUboD+fue+7Zj7X2Wvu/1t7nEhiHJ9GGriF+/Yinkszq0pcWnIZXsQ37DU3UYRquxVY0EjPfgdmDJlZxXIy/hSW0oWlQxakNr2B7PSYJcxxq2IqJ9elmqPp8NeyH+qxaQx3/KzDYOOQVGD5IYzZiJo5BO7bgHeyppcMu3F/l+SicWEvHvTAMt+uZrnRUfN+HFTiqos043IufcUOv/kqpXaYCz+BPXNgP4Y/Am2ms97BIzD4cjllYJaLrV7hNBKp23Qo21qLAWDEznfgNF9Qg/DCsS8LdIvKZvjBTt4V24CVhpc0HaJdLgYXp+XUi8rXjqoIK3JH6uDln/ePQgDFC8Q7MwQQ9SackhwJ3p+djcCw+SvfLxNrIwghsxwbVZ/5A+MK/U+n7eiuQRaMjUtmBnSJjfQH34BMxM9VwPibiuSRAEbwoMuUf0v1uvN67UpYCbak8KZV/4FYsEItvvaC/eX30NSOVLXmlrsCHmI/J+EBMxue9K2Up8H4qr+j1+1pMx13CX9fiO5Gfz5N2S4J9YFch0QNLxXpYJFjqy74qZtHoeuE+R/fxfCSuxxphobK/tgn/7xKzWBRviTXXF0royorEDYKX52A1rkxCVuIvNKdrtDD1eantZHwr4khRHIm9eSpWs8AyPVlgE8bXIEwt+AYvV3lekoOFfkllEz4VPjmh36JlYxSmCOtXRZYLbUrlG7ixfzIVwjmCYD7LqphlgY2CXZaIlOC/wuyK8asiS4FOEf3OxiP9k6kQrkGrYL+qyLOhWS2i4hKs1M3tA4UGkdQ1522QFQcI92lKdXfi8TTIQOB5kQFnsV1Jzv1AGT/pSambaxaxb0wRMWNljrolOWi0EutS+SAux2VFJMuJR8W6e6hIo7wWOFnsB97FYYVFy8bVBWShBheCxan+RmHug4WpImh+rDuFz0JJjlyoN5rE1nCV2KE1422R77SKfUNRjBN5fr3YuBfuo4gFyjgBz+JX3Yt6cdGBhfCbRUJ4ScG2JQUXcSX2ilkvH4usEC9HiuBUsWmZIQLX+loEqeZC08Ri3Sd2X5NwpjheuVTsAzaIFLu1wJh1uAlPC3ecK45aakZfLrTbgd9RbcMTOKuGsc4Va6ZMBFNr6KOMkgwWahSsUBa8WYT5ohgpXGRt6mcX7tT/5LAkB43WC35uSfU6xcw9nH4/QxwFDhc5/HjxsnCBOLlYg991bzGXisOyg4FcClRiuojCrcJ387wS/VqkBfMd/IPkkoJxYAseSNdoMfun4HiRoXaK2d4jBN8qaHZAUeustAv+HoiErhAO+RccZQWKnlsOBdSXP3bg9MGVpSY0SEef5b8aXDSo4hTDXEEay+sEL7cIK7xmaP/Zo17IuVAc9M4qPxiL5fhecPxQvTrEMc9j4p2FfwDewoKLDrTxigAAAABJRU5ErkJggg=="
 
 /***/ },
 /* 209 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAA2xJREFUaIHt2l2IVVUUB/Df3ErtA2eSEooeKvqyCXyKiHrog8QkkCgiqIciH0ctiigQmuohIqEQJIqCQKR6kMQahOkhsIQKiiAiDJKMxqSwLCgrm7k9rH3ieuace8+x+zXhH/bd5+69zt5r7bX3+tj3EhjD85hBc8jL93gh8WwkPezFZdiBrzBnODGCy3En9uE6YuWP4YaBsVUfN+FvoQkz2D5Qdk4Mb+JgA+cLdSw07MN5jfRlWPd8O8xBoxPVsOPUGrSLsQZX4S/swYfCtA0MVQW4Em/j4lz7DtyDP7vJVB1U2UKLsQtLsBqLsAyP4w482TPuKqKJTW361ySa2wr6XsfPBnOWJtGsMvFFqf64oO8j4cmXdYmp2qgiwEyqxwv6xvE7jnSNo5qoIsC7OIQXhQUiDv8DuB/bhFsfCKpYod9E8LQLn+MHnIUz8D4e7Rl3FVDVjGbR6r3CpB7Fe3gHs71hrRqqCjCOs/FJKhmuxZc4nL6PYLRkjDn8mp6X4maswOnCkn0hnOPRijz9i05mdDRNXpZgvNFCO9GGrom78Iw4+Flb69hHhHlcUoHvSTSraOA0sbJbsTPX91JussycPuL4rTWGJ/CqOD/b8DI+FSs+hmuwLtGtxq1CMx3RSQPnJJqJgr7PHC/UpkSbX5gLUvusCD3a4XYRmkyLhSvDpIqOrA6ywK5s4qd1Tp7ewnrcgrs7TVgnGq2CLK/IC/AdLsV+rBTMLRJbaNr8fOQVbMBDIlwpRbcFyFCkgf0ih12fa5/GWvzR0jaH1/CcyBgPlk3UqyCsKEfYKJjfguXCEU5gFR4uoN+T6qvbTdSvKLKBx7AbD+JHYX22Ygr3Fbzzdaov7DRwP7A8lSnztfMBLsGZufZfUr203cD9EiA7a0WZ20+pHsu1ZwHiKe0G7rYA7ex2GcosVyX0SoC+XdP0SoC+3VQs+HuhYTgD/wknt1AJFqwA2XgLVoC+o44AW4R3bC0rFa92nu5Aam+nmQMF73V6p1I4fVgEYOeW9O9ued4uXH+RNZoVtxh5TOEpxSFDU4VfjzqllMOKST1IKfuOkwIMGv8bAfoew3QBjezjEK4YLC8nhBXSbxfZXw1uHCg79bBK+JXN2W3yXqGFnYb7zx4NwedacZt9fdYxis341nx3PkzlGL7Bs9JtxT+gChPpDYNPegAAAABJRU5ErkJggg=="
+
+/***/ },
+/* 210 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAA1pJREFUaIHt2luIVVUcx/HPOWMIkSYRhFlJ9VCZmC9lJhkVE0N0J4IiMBIJguqtCLoMBEY11CA+hNFTkVhkSUUU3ai0IlHGIrAou01CL9ENqhk9Pfy3ZXH29Wxnn5H5wplzZu+1zv79197rv37rzyGYh8cwjk6fv/ZiNNGslXzYitPwPHZjv/6kJXReK3SuIEZ+Ehc2p6s0FwnNo8Rjs6lROdXYhB/aOF7cjunGbsxvJ//06zOfxX5o57Xqd2YCaJqZAJpmVsVzTTDZ7WCayBb+wMAhk1OOfVK0pgXQ8a/4L8Sq92f9ujKZjetxqpyB7GA45fgWcet2YkG9+jI5AbswgRcSLf9nGJ28SbwTl4pR+BBL6tOYylJ8hIUYwlhW4yJZ6HWcL+bF+7ikR4FZDOE9cddX4M28DkXT6BiW4Su8gpsrCsxiDV7G5zgXnxbpVGYdGMdKMSpP4gFxV3qljbXYgNdwgdh1Fe5chl9wOZ7APXhKZIuqzMbTuBuP40r8VuYLqixWE7gFe8TILcA1+Knk9xwjMsxK3IkR3bNNJlWtRAcP4gach204uUT/U5I+y3AdHlFBPL17oY0YxHEizZ5doM85+ADH4mI814uAOszcu1iO30UKvCKj7VV4B78mfbb2evG63OgebMePeBG3dWlzBzbjO3yMr+u4cB0BzBOWYwtOT97X4VHhYQZE+WNU1J2W4lUxgefWcP1ML9Tt+MGcKB6bg2tKA6LW1BEjvjn5/LD/DtigePzyPNawDC+UJTQvgLPEZFyccv52UTnYh1tT2iwR2ejMjOv8I7Tb8aqblkHcK0p84ylt1uEzEcRbKW12iTT6DO7H22WFVAngJiH8MrEyZ/FGge/7XqzuGzFfBFOYMpO4hfvEynm1fPFl+Fmk2CHcpYTHKhrAEcL/tLFa2Im6+QurMAfrFdzOFglgjkh/26RPqLroCJM4hmdxZF6HvDlwlPDoa4XVnSo2iLnxEnZkNcwL4Eaxsi5PXlPNl2Kjk0pWAN/iJGGdm+abtBNZASw8BEJqZ9qXFmcCaJqZAJrmsAmgjgLVVNM+8Gev2ApONxZJ9iIHfmow2KiccgyJnd5IC0eLqvMi4Xv6+ccebZwhSpCfiKo5IogR4X8m+/g1IcoxDwmb729XGf9aFnRNhAAAAABJRU5ErkJggg=="
+
+/***/ },
+/* 211 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(210);
+	var content = __webpack_require__(212);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(182)(content, {});
@@ -22617,7 +22678,7 @@
 	}
 
 /***/ },
-/* 210 */
+/* 212 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(181)();
@@ -22625,7 +22686,7 @@
 
 
 	// module
-	exports.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  background: #fafbfa; }\n\nh1, h2, h3, h4, h5, p {\n  font-family: 'Montserrat', sans-serif; }\n\nh2 {\n  display: flex;\n  justify-content: center;\n  font-size: 30px; }\n\n.main {\n  min-height: 90vh;\n  margin-left: 42px; }\n  .main h4 {\n    display: flex;\n    justify-content: center;\n    margin: 10px 0 50px 0; }\n\na {\n  position: relative;\n  text-decoration: none;\n  padding-left: 3px;\n  color: black; }\n\na:before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 2px;\n  bottom: 0;\n  left: 0;\n  visibility: hidden;\n  -webkit-transform: scaleX(0);\n  transform: scaleX(0);\n  -webkit-transition: all 0.3s ease-in-out 0s;\n  transition: all 0.3s ease-in-out 0s; }\n\na:hover:before {\n  visibility: visible;\n  -webkit-transform: scaleX(1);\n  transform: scaleX(1); }\n\n.nav-hook {\n  top: -150px; }\n", ""]);
+	exports.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  background: #fafbfa; }\n\nh1, h2, h3, h4, h5, p {\n  font-family: 'Montserrat', sans-serif; }\n\nh2 {\n  display: flex;\n  justify-content: center;\n  font-size: 34px; }\n\n.main {\n  min-height: 90vh;\n  margin-left: 42px; }\n  .main h2 {\n    margin-top: 40px; }\n  .main h4 {\n    display: flex;\n    justify-content: center;\n    margin: 10px 0 50px 0; }\n\na {\n  position: relative;\n  text-decoration: none;\n  padding-left: 3px;\n  color: black; }\n\na:before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 2px;\n  bottom: 0;\n  left: 0;\n  visibility: hidden;\n  -webkit-transform: scaleX(0);\n  transform: scaleX(0);\n  -webkit-transition: all 0.3s ease-in-out 0s;\n  transition: all 0.3s ease-in-out 0s; }\n\na:hover:before {\n  visibility: visible;\n  -webkit-transform: scaleX(1);\n  transform: scaleX(1); }\n\n.nav-hook {\n  top: -110px; }\n\n.home {\n  top: -144px; }\n", ""]);
 
 	// exports
 
