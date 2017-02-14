@@ -1,41 +1,63 @@
 .section-code {
-  margin-top: 15vh;
+  margin-top: 10vh;
   display: block;
 
 }
 
 .projects {
-  margin: 40px 25px 0 25px;
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
-  flex-flow: wrap;
+  margin: 40px 0 40px 15%;
+  display: block;
+  align-items: center;
 }
 
 .project {
-  margin: 20px;
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  width: 90%;
+  height: auto;
   h3, h5, img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
   }
   img{
-    margin: auto;
+    margin: 10px;
   }
   h3 {
-    font-size: 20px;
-    font-weight: 600;
-    margin: 20px 0 10px;
+    font-size: 22px;
+    margin-bottom: 20px;
   }
   h5 {
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
+    line-height: 1.4;
   }
   .tech {
     font-weight: 600;
   }
 }
 
+.project-text {
+  display: inline-block;
+  width: auto;
+  margin: 20px;
+  img {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    z-index: -1;
+  }
+}
+
+.project-link {
+  margin-left: 10px;
+  a {
+    height: 100px;
+  }
+}
+
+
 .last-project {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }

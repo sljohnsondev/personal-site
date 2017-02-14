@@ -15,13 +15,15 @@ const Footer = () => {
         <a className="social-media" href="https://www.twitter.com/sjohnson_" target="_blank">
           <img src={require("../../Images/social/twitter.png")} alt="Sam's Twitter profile"/></a> |
         <a className="social-media" href="https://www.linkedin.com/in/sljohnson" target="_blank">
-          <img src={require("../../Images/social/linkedin.png")} alt="Sam's LinkedIn profile"/></a>
-      </section>
-      <section className="email-msg">
-        <p>or hit me up at  <a href="mailto:sljohnson32@gmail.com">sljohnson32@gmail.com</a></p>
+          <img src={require("../../Images/social/linkedin.png")} alt="Sam's LinkedIn profile"/></a> |
+          <a className="social-media" href="mailto:sljohnson32@gmail.com" target="_blank">
+            <img src={require("../../Images/social/email.png")} alt="Sam's email"/></a>
       </section>
     </section>
   )
 }
+// <section className="email-msg">
+//   <p>or hit me up at  <a href="mailto:sljohnson32@gmail.com">sljohnson32@gmail.com</a></p>
+// </section>
 
 export default Footer;
