@@ -1,7 +1,7 @@
 module.exports = {
   entry: './app',
   output: {
-    path: './build',
+    path: './docs',
     filename: 'bundle.js'
   },
   module: {
@@ -17,7 +17,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: './build',
+    contentBase: './docs',
     inline: true
   },
   resolve: {
