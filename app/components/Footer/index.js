@@ -4,6 +4,7 @@ import './footer-style';
 const Footer = () => {
   return (
     <section className="section-footer">
+      <a className='nav-hook' name='contact'></a>
       <h2>Contact Me</h2>
       <section className='container-social'>
         <a className="social-media" href="https://github.com/sljohnson32" target="_blank">
@@ -22,8 +23,5 @@ const Footer = () => {
     </section>
   )
 }
-// <section className="email-msg">
-//   <p>or hit me up at  <a href="mailto:sljohnson32@gmail.com">sljohnson32@gmail.com</a></p>
-// </section>
 
 export default Footer;
