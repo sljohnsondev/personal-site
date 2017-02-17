@@ -9,7 +9,7 @@ const Code = () => {
       <h4>Some projects I've worked on</h4>
       <section className='projects'>
         <article className='project'>
-          <img src={require('../../Images/project-image.jpg')} />
+          <img className='project-img' src={require('../../Images/projects/chat.png')} />
           <article className='project-text'>
             <h3>Shoot The Breeze</h3>
             <h5>Authenticated chat app built on top of Firebase</h5>
@@ -21,7 +21,7 @@ const Code = () => {
           </article>
         </article>
         <article className='project'>
-          <img src={require('../../Images/project-image.jpg')} />
+          <img className='project-img' src={require('../../Images/projects/weatherly.png')} />
           <article className='project-text'>
             <h3>Weatherly</h3>
             <h5>Weather forecast app built on external APIs</h5>
@@ -33,7 +33,7 @@ const Code = () => {
           </article>
         </article>
         <article className='project last-project'>
-          <img src={require('../../Images/project-image.jpg')} />
+          <img className='project-img' src={require('../../Images/projects/chuckle.png')} />
           <article className='project-text'>
             <h3>Chuckle Norris Joke Machine</h3>
             <h5>Random joke generator built on external API</h5>

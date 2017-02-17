@@ -1,5 +1,5 @@
 .section-footer {
-  margin: 50px auto 35vh;
+  margin: 80px auto 40vh;
 }
 
 .container-social {
@@ -13,15 +13,7 @@
 .social-media {
   display: inline-flex;
   margin: 20px 20px 30px 20px;
-}
-
-.email-msg {
-  display: flex;
-  justify-content: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  padding-bottom: 30px;
-  a:before {
-    background-color: #000;
+  :hover {
+    transform: scale(1.1);
   }
 }
