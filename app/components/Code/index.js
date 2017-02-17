@@ -15,8 +15,8 @@ const Code = () => {
             <h5>Authenticated chat app built on top of Firebase</h5>
             <h5 className='tech'>React.js - Firebase - Enzyme/Chai/Sinon</h5>
             <div className='project-links'>
-              <a className='project-link' href='https://github.com/sljohnson32/shoot-the-breeze'><img src={require('../../Images/social/github.png')} /></a>
-              <a className='project-link' href='https://shoot-the-breeze-8b841.firebaseapp.com/' ><img src={require('../../Images/social/browser.png')} /></a>
+              <a className='project-link' href='https://github.com/sljohnson32/shoot-the-breeze' target="_blank"><img src={require('../../Images/social/github.png')} /></a>
+              <a className='project-link' href='https://shoot-the-breeze-8b841.firebaseapp.com/' target="_blank"><img src={require('../../Images/social/browser.png')} /></a>
             </div>
           </article>
         </article>
@@ -27,8 +27,8 @@ const Code = () => {
             <h5>Weather forecast app built on external APIs</h5>
             <h5 className='tech'>React.js - Redux - External API - Sass - Enzyme/Chai</h5>
             <div className='project-links'>
-              <a className='project-link' href='https://github.com/sljohnson32/redux-weather-app'><img src={require('../../Images/social/github.png')} /></a>
-              <a className='project-link' href='' ><img src={require('../../Images/social/browser.png')} /></a>
+              <a className='project-link' href='https://github.com/sljohnson32/redux-weather-app' target="_blank"><img src={require('../../Images/social/github.png')} /></a>
+              <a className='project-link' href='' target="_blank"><img src={require('../../Images/social/browser.png')} /></a>
             </div>
           </article>
         </article>
@@ -39,8 +39,8 @@ const Code = () => {
             <h5>Random joke generator built on external API</h5>
             <h5 className='tech'>React.js - React Router - External API - Sass - Enzyme/Chai</h5>
             <div className='project-links'>
-              <a className='project-link' href='https://github.com/sljohnson32/chuckle-norris'><img src={require('../../Images/social/github.png')} /></a>
-              <a className='project-link' href='' ><img src={require('../../Images/social/browser.png')} /></a>
+              <a className='project-link' href='https://github.com/sljohnson32/chuckle-norris' target="_blank"><img src={require('../../Images/social/github.png')} /></a>
+              <a className='project-link' href='' target="_blank"><img src={require('../../Images/social/browser.png')} /></a>
             </div>
           </article>
         </article>
