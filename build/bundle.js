@@ -22388,8 +22388,17 @@
 	    ),
 	    _react2.default.createElement(
 	      'p',
-	      { className: 'about-bold last-line' },
+	      { className: 'about-bold' },
 	      'My skills as a front-end software developer allow me to be a more dangerous problem solver and solutions ninja.'
+	    ),
+	    _react2.default.createElement(
+	      'p',
+	      { className: 'about-bold last-line' },
+	      _react2.default.createElement(
+	        'a',
+	        { href: '../../Images/sam.johnson_resume.pdf', target: '_blank' },
+	        'Check out my resume.'
+	      )
 	    )
 	  );
 	};

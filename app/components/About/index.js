@@ -10,7 +10,8 @@ const About = () => {
       <p className='about-bold'>At my core, I am a pragmatic problem solver.</p>
       <p>I spent the first 11 years of my career at Teach For America building operational capacity through smart solutions to growth-oriented business problems.</p>
       <p>During my last five years at TFA, I worked as a product owner and team leader for Technology Solutions.</p>
-      <p className='about-bold last-line'>My skills as a front-end software developer allow me to be a more dangerous problem solver and solutions ninja.</p>
+      <p className='about-bold'>My skills as a front-end software developer allow me to be a more dangerous problem solver and solutions ninja.</p>
+      <p className='about-bold last-line'><a href="../../Images/sam.johnson_resume.pdf" target='_blank'>Check out my resume.</a></p>
     </div>
   );
 }
