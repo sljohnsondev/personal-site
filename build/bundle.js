@@ -21614,7 +21614,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-header {\n  height: 130px;\n  position: fixed;\n  top: 0px;\n  width: 100%;\n  background: #fafbfa;\n  padding-top: 15px; }\n\n.icon-info-container {\n  margin-left: 35px;\n  display: inline-flex;\n  justify-content: center; }\n\n.sj-info {\n  display: inline-block;\n  margin-top: 35px; }\n  .sj-info h1 {\n    font-size: 28px; }\n  .sj-info h3 {\n    padding: 3px 0 0 9px; }\n\n.icon-img {\n  width: 120px;\n  height: 120px;\n  margin-left: -20px; }\n\n.icon-img:hover {\n  transform: scale(1.1); }\n", ""]);
+	exports.push([module.id, ".section-header {\n  height: 130px;\n  position: fixed;\n  top: 0px;\n  width: 100%;\n  background: #fafbfa;\n  padding-top: 15px;\n  z-index: 1; }\n\n.icon-info-container {\n  margin-left: 35px;\n  display: inline-flex;\n  justify-content: center; }\n\n.sj-info {\n  display: inline-block;\n  margin-top: 35px; }\n  .sj-info h1 {\n    font-size: 28px; }\n  .sj-info h3 {\n    padding: 3px 0 0 9px; }\n\n.icon-img {\n  width: 120px;\n  height: 120px;\n  margin-left: -20px; }\n\n.icon-img:hover {\n  transform: scale(1.1); }\n", ""]);
 
 	// exports
 
@@ -22393,10 +22393,10 @@
 	    ),
 	    _react2.default.createElement(
 	      'p',
-	      { className: 'about-bold last-line' },
+	      { className: 'about-bold' },
 	      _react2.default.createElement(
 	        'a',
-	        { href: '../../Images/sam.johnson_resume.pdf', target: '_blank' },
+	        { href: 'https://drive.google.com/open?id=0B1LF3i2gTJgNYU9ZcmdsbGRXb28', target: '_blank' },
 	        'Check out my resume.'
 	      )
 	    )
@@ -22440,7 +22440,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-about p {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 40px auto;\n  width: 50%;\n  font-size: 19px;\n  text-align: center;\n  line-height: 1.6; }\n\n.about-bold {\n  font-weight: bolder; }\n", ""]);
+	exports.push([module.id, ".section-about p {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 50px auto;\n  width: 50%;\n  font-size: 19px;\n  text-align: center;\n  line-height: 1.6; }\n\n.about-bold {\n  font-weight: bolder; }\n", ""]);
 
 	// exports
 
@@ -22552,7 +22552,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-footer {\n  margin: 80px auto 40vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px; }\n  .social-media :hover {\n    transform: scale(1.1); }\n", ""]);
+	exports.push([module.id, ".section-footer {\n  margin: 135px auto 45vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px; }\n  .social-media :hover {\n    transform: scale(1.1); }\n", ""]);
 
 	// exports
 
