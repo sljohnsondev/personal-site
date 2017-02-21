@@ -15,8 +15,8 @@
   margin: 0 20 0 20px ;
 }
 
-@media (min-width: 588px) {
+@media (max-width: 588px) {
   .container-hero {
-    padding-top: 155px;
+    padding-top: 155px; 
   }
 }
