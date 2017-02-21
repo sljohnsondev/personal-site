@@ -40,7 +40,7 @@ const Code = () => {
             <h5 className='tech'>React.js - React Router - External API - Sass - Enzyme/Chai</h5>
             <div className='project-links'>
               <a className='project-link' href='https://github.com/sljohnson32/chuckle-norris' target="_blank"><img src={require('../../Images/social/github.png')} /></a>
-              <a className='project-link' href='' target="_blank"><img src={require('../../Images/social/browser.png')} /></a>
+              <a className='project-link' href='https://sljohnson32.github.io/chuckle-norris/#/' target="_blank"><img src={require('../../Images/social/browser.png')} /></a>
             </div>
           </article>
         </article>
