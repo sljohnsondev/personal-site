@@ -36,3 +36,10 @@
 .icon-img:hover {
   transform: scale(1.1);
 }
+
+@media (min-width: 588px) {
+  .section-header {
+    height: 155px;
+    padding-left: 26.5%;
+  }
+}

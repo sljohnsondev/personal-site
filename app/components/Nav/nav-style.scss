@@ -13,3 +13,13 @@
     background-color: #000;
   }
 }
+
+@media (min-width: 588px) {
+  .container-nav {
+    float: none;
+    margin: 0 47px;
+    z-index: -1;
+    padding: 0;
+    width: auto;
+  }
+}

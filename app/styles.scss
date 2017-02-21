@@ -59,3 +59,9 @@ a:hover:before {
 .home {
   top: -144px;
 }
+
+@media (min-width: 588px) {
+  .nav-hook {
+    top: -135px;
+  }
+}

@@ -14,3 +14,9 @@
   justify-content: center;
   margin: 0 20 0 20px ;
 }
+
+@media (min-width: 588px) {
+  .container-hero {
+    padding-top: 155px;
+  }
+}
