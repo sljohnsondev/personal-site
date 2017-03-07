@@ -1,3 +1,3 @@
 # Professional Website
 
-Hosted at [sam-johnson.io](sam-johnson.io)
+Hosted at [sam-johnson.io](http://sam-johnson.io)
