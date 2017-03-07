@@ -33,8 +33,14 @@
   margin-left: -20px
 }
 
+
 .icon-img:hover {
-  transform: scale(1.1);
+  animation: App-logo-spin infinite 2s linear;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 @media (max-width: 588px) {
