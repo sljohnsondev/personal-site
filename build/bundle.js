@@ -21614,7 +21614,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-header {\n  height: 130px;\n  position: fixed;\n  top: 0px;\n  width: 100%;\n  background: #fafbfa;\n  padding-top: 15px;\n  z-index: 1; }\n\n.icon-info-container {\n  margin-left: 35px;\n  display: inline-flex;\n  justify-content: center; }\n\n.sj-info {\n  display: inline-block;\n  margin-top: 35px; }\n  .sj-info h1 {\n    font-size: 28px; }\n  .sj-info h3 {\n    padding: 3px 0 0 9px; }\n\n.icon-img {\n  width: 120px;\n  height: 120px;\n  margin-left: -20px; }\n\n.icon-img:hover {\n  transform: scale(1.1); }\n", ""]);
+	exports.push([module.id, ".section-header {\n  height: 130px;\n  position: fixed;\n  top: 0px;\n  width: 100%;\n  background: #fafbfa;\n  padding-top: 15px;\n  z-index: 1; }\n\n.icon-info-container {\n  margin-left: 35px;\n  display: inline-flex;\n  justify-content: center; }\n\n.sj-info {\n  display: inline-block;\n  margin-top: 35px; }\n  .sj-info h1 {\n    font-size: 28px; }\n  .sj-info h3 {\n    padding: 3px 0 0 9px; }\n\n.icon-img {\n  width: 120px;\n  height: 120px;\n  margin-left: -20px; }\n\n.icon-img:hover {\n  transform: scale(1.1); }\n\n@media (max-width: 588px) {\n  .section-header {\n    height: 155px;\n    padding-left: 26.5%; } }\n", ""]);
 
 	// exports
 
@@ -22030,7 +22030,7 @@
 
 
 	// module
-	exports.push([module.id, ".container-nav {\n  float: right;\n  margin: 35px 30px 0 0;\n  padding: 20px; }\n  .container-nav h3, .container-nav p {\n    display: inline-block;\n    font-size: 20px; }\n  .container-nav p {\n    margin: 0 15px; }\n  .container-nav a:before {\n    background-color: #000; }\n", ""]);
+	exports.push([module.id, ".container-nav {\n  float: right;\n  margin: 35px 30px 0 0;\n  padding: 20px; }\n  .container-nav h3, .container-nav p {\n    display: inline-block;\n    font-size: 20px; }\n  .container-nav p {\n    margin: 0 15px; }\n  .container-nav a:before {\n    background-color: #000; }\n\n@media (max-width: 588px) {\n  .container-nav {\n    float: none;\n    margin: 0 47px;\n    z-index: -1;\n    padding: 0;\n    width: auto; } }\n", ""]);
 
 	// exports
 
@@ -22105,7 +22105,7 @@
 
 
 	// module
-	exports.push([module.id, ".container-hero {\n  padding-top: 131px;\n  margin: 0 20px 0 25px; }\n\n.img-hero {\n  background: url(" + __webpack_require__(190) + ") no-repeat center center;\n  border-radius: 4px;\n  background-size: cover;\n  height: 75vh;\n  text-align: center;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  margin: 0 20 0 20px; }\n", ""]);
+	exports.push([module.id, ".container-hero {\n  padding-top: 131px;\n  margin: 0 20px 0 25px; }\n\n.img-hero {\n  background: url(" + __webpack_require__(190) + ") no-repeat center center;\n  border-radius: 4px;\n  background-size: cover;\n  height: 75vh;\n  text-align: center;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  margin: 0 20 0 20px; }\n\n@media (max-width: 588px) {\n  .container-hero {\n    padding-top: 155px; } }\n", ""]);
 
 	// exports
 
@@ -22260,7 +22260,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'a',
-	              { className: 'project-link', href: '', target: '_blank' },
+	              { className: 'project-link', href: 'https://sljohnson32.github.io/chuckle-norris/#/', target: '_blank' },
 	              _react2.default.createElement('img', { src: __webpack_require__(196) })
 	            )
 	          )
@@ -22307,7 +22307,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-code {\n  margin-top: 10vh;\n  display: block; }\n\n.projects {\n  margin: 40px 0 40px 15%;\n  display: block;\n  align-items: center; }\n\n.project {\n  display: flex;\n  align-items: center;\n  margin: 0 40px;\n  width: 90%;\n  height: auto; }\n  .project h3, .project h5, .project img {\n    display: block; }\n  .project img {\n    margin: 10px;\n    border-radius: 4px;\n    transform: scale(0.7);\n    position: relative;\n    z-index: -1; }\n  .project h3 {\n    font-size: 22px;\n    margin-bottom: 20px; }\n  .project h5 {\n    font-size: 14px;\n    margin-bottom: 18px;\n    line-height: 1.4; }\n  .project .tech {\n    font-weight: 600; }\n\n.project-text {\n  display: inline-block;\n  width: auto;\n  margin: 20px 0; }\n  .project-text img {\n    height: 40px;\n    width: 40px;\n    display: inline-block;\n    margin: 0 10px;\n    transform: scale(1); }\n\n.project-text a {\n  display: inline-block;\n  margin-left: 10px; }\n\n.last-project {\n  margin-bottom: 60px; }\n", ""]);
+	exports.push([module.id, ".section-code {\n  margin-top: 10vh;\n  display: block; }\n\n.projects {\n  margin: 20px 0 20px 15%;\n  display: block;\n  align-items: center; }\n\n.project {\n  display: flex;\n  align-items: center;\n  width: 80%;\n  height: auto; }\n  .project h3, .project h5, .project img {\n    display: block; }\n  .project img {\n    margin: 10px;\n    border-radius: 4px;\n    transform: scale(0.7);\n    position: relative;\n    z-index: -1; }\n  .project h3 {\n    font-size: 22px;\n    margin-bottom: 20px; }\n  .project h5 {\n    font-size: 14px;\n    margin-bottom: 18px;\n    line-height: 1.4; }\n  .project .tech {\n    font-weight: 600; }\n\n.project-text {\n  display: inline-block;\n  width: auto;\n  margin: 20px 0; }\n  .project-text img {\n    height: 40px;\n    width: 40px;\n    display: inline-block;\n    margin: 0 10px;\n    transform: scale(1); }\n\n.project-text a {\n  display: inline-block;\n  margin-left: 10px; }\n", ""]);
 
 	// exports
 
@@ -22622,7 +22622,7 @@
 
 
 	// module
-	exports.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  background: #fafbfa; }\n\nh1, h2, h3, h4, h5, p {\n  font-family: 'Montserrat', sans-serif; }\n\nh2 {\n  display: flex;\n  justify-content: center;\n  font-size: 34px; }\n\n.main {\n  min-height: 70vh;\n  margin-left: 42px; }\n  .main h2 {\n    margin-top: 40px; }\n  .main h4 {\n    display: flex;\n    justify-content: center;\n    margin: 10px 0 30px 0; }\n\na {\n  height: auto;\n  position: relative;\n  text-decoration: none;\n  padding-left: 3px;\n  color: black; }\n\na:before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 2px;\n  bottom: 0;\n  left: 0;\n  visibility: hidden;\n  -webkit-transform: scaleX(0);\n  transform: scaleX(0);\n  -webkit-transition: all 0.3s ease-in-out 0s;\n  transition: all 0.3s ease-in-out 0s; }\n\na:hover:before {\n  visibility: visible;\n  -webkit-transform: scaleX(1);\n  transform: scaleX(1); }\n\n.nav-hook {\n  top: -110px; }\n\n.home {\n  top: -144px; }\n", ""]);
+	exports.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  background: #fafbfa; }\n\nh1, h2, h3, h4, h5, p {\n  font-family: 'Montserrat', sans-serif; }\n\nh2 {\n  display: flex;\n  justify-content: center;\n  font-size: 34px; }\n\n.main {\n  min-height: 70vh;\n  margin-left: 5%; }\n  .main h2 {\n    margin-top: 40px; }\n  .main h4 {\n    display: flex;\n    justify-content: center;\n    margin: 10px 0 30px 0; }\n\na {\n  height: auto;\n  position: relative;\n  text-decoration: none;\n  padding-left: 3px;\n  color: black; }\n\na:before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 2px;\n  bottom: 0;\n  left: 0;\n  visibility: hidden;\n  -webkit-transform: scaleX(0);\n  transform: scaleX(0);\n  -webkit-transition: all 0.3s ease-in-out 0s;\n  transition: all 0.3s ease-in-out 0s; }\n\na:hover:before {\n  visibility: visible;\n  -webkit-transform: scaleX(1);\n  transform: scaleX(1); }\n\n.nav-hook {\n  top: -110px; }\n\n.home {\n  top: -144px; }\n\n@media (max-width: 588px) {\n  .nav-hook {\n    top: -135px; } }\n", ""]);
 
 	// exports
 
