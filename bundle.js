@@ -22547,7 +22547,7 @@
 	      ' |',
 	      _react2.default.createElement(
 	        'a',
-	        { className: 'social-media', href: 'mailto:sljohnson32@gmail.com', target: '_blank' },
+	        { className: 'social-media', href: 'mailto:sljohnson32@gmail.com' },
 	        _react2.default.createElement('img', { src: __webpack_require__(210), alt: 'Sam\'s email' })
 	      )
 	    )
