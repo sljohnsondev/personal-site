@@ -17,7 +17,7 @@ const Footer = () => {
           <img src={require("../../Images/social/twitter.png")} alt="Sam's Twitter profile"/></a> |
         <a className="social-media" href="https://www.linkedin.com/in/sljohnson" target="_blank">
           <img src={require("../../Images/social/linkedin.png")} alt="Sam's LinkedIn profile"/></a> |
-          <a className="social-media" href="mailto:sljohnson32@gmail.com" target="_blank">
+          <a className="social-media" href="mailto:sljohnson32@gmail.com">
             <img src={require("../../Images/social/email.png")} alt="Sam's email"/></a>
       </section>
     </section>
