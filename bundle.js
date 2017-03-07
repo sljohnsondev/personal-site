@@ -22340,7 +22340,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-code {\n  margin-top: 10vh;\n  display: block; }\n\n.projects {\n  margin: 20px 0 20px 15%;\n  display: block;\n  align-items: center; }\n\n.project {\n  display: flex;\n  align-items: center;\n  width: 80%;\n  height: auto; }\n  .project h3, .project h5, .project img {\n    display: block; }\n  .project img {\n    margin: 10px;\n    border-radius: 4px;\n    transform: scale(0.7);\n    position: relative;\n    z-index: -1; }\n  .project h3 {\n    font-size: 22px;\n    margin-bottom: 20px; }\n  .project h5 {\n    font-size: 14px;\n    margin-bottom: 18px;\n    line-height: 1.4; }\n  .project .tech {\n    font-weight: 600; }\n\n.project-text {\n  display: inline-block;\n  width: auto;\n  margin: 20px 0; }\n  .project-text img {\n    height: 50px;\n    width: 50px;\n    display: inline-block;\n    margin: 0 10px;\n    transform: scale(1); }\n\n.project-text a {\n  display: inline-block;\n  margin-left: 10px; }\n\n.project-link:hover {\n  transform: scale(1.1); }\n", ""]);
+	exports.push([module.id, ".section-code {\n  margin-top: 10vh;\n  display: block; }\n\n.projects {\n  margin: 20px 0 20px 15%;\n  display: block;\n  align-items: center; }\n\n.project {\n  display: flex;\n  align-items: center;\n  width: 80%;\n  height: auto; }\n  .project h3, .project h5, .project img {\n    display: block; }\n  .project img {\n    margin: 10px;\n    border-radius: 4px;\n    transform: scale(0.7);\n    position: relative;\n    z-index: -1; }\n  .project h3 {\n    font-size: 22px;\n    margin-bottom: 20px; }\n  .project h5 {\n    font-size: 14px;\n    margin-bottom: 18px;\n    line-height: 1.4; }\n  .project .tech {\n    font-weight: 600; }\n\n.project-text {\n  display: inline-block;\n  width: auto;\n  margin: 20px 0; }\n  .project-text img {\n    height: 50px;\n    width: 50px;\n    display: inline-block;\n    margin: 0 10px;\n    transform: scale(1); }\n\n.project-text a {\n  display: inline-block;\n  margin-left: 10px; }\n\n.project-link {\n  transition-duration: .5s; }\n  .project-link:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n", ""]);
 
 	// exports
 
@@ -22591,7 +22591,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-footer {\n  margin: 135px auto 45vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px; }\n  .social-media :hover {\n    transform: scale(1.1); }\n", ""]);
+	exports.push([module.id, ".section-footer {\n  margin: 135px auto 45vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px;\n  transition-duration: .5s; }\n  .social-media:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n", ""]);
 
 	// exports
 
