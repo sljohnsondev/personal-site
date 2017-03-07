@@ -33,8 +33,14 @@
   margin-left: -20px
 }
 
+
 .icon-img:hover {
-  animation: App-logo-spin infinite 10s linear;
+  animation: App-logo-spin infinite 2s linear;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 @media (max-width: 588px) {
@@ -42,9 +48,4 @@
     height: 155px;
     padding-left: 26.5%;
   }
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
