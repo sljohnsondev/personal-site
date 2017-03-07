@@ -9,6 +9,18 @@ const Code = () => {
       <h4>Some projects I've worked on</h4>
       <section className='projects'>
         <article className='project'>
+          <img className='project-img' src={require('../../Images/projects/grad-cap.png')} />
+          <article className='project-text'>
+            <h3>School Finder</h3>
+            <h5>Google Maps web app for parents looking for nearby schools in Denver</h5>
+            <h5 className='tech'>React.js - Redux - Firebase - Google Maps APIs - Enzyme/Chai/Sinon</h5>
+            <div className='project-links'>
+              <a className='project-link' href='https://github.com/sljohnson32/school-finder' target="_blank"><img src={require('../../Images/social/github.png')} /></a>
+              <a className='project-link' href='https://school-finder-86e85.firebaseapp.com/' target="_blank"><img src={require('../../Images/social/browser.png')} /></a>
+            </div>
+          </article>
+        </article>
+        <article className='project'>
           <img className='project-img' src={require('../../Images/projects/chat.png')} />
           <article className='project-text'>
             <h3>Shoot The Breeze</h3>
@@ -28,7 +40,6 @@ const Code = () => {
             <h5 className='tech'>React.js - Redux - External API - Sass - Enzyme/Chai</h5>
             <div className='project-links'>
               <a className='project-link' href='https://github.com/sljohnson32/redux-weather-app' target="_blank"><img src={require('../../Images/social/github.png')} /></a>
-              <a className='project-link' href='' target="_blank"><img src={require('../../Images/social/browser.png')} /></a>
             </div>
           </article>
         </article>
