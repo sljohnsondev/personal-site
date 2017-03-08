@@ -43,9 +43,15 @@
   to { transform: rotate(360deg); }
 }
 
-@media (max-width: 588px) {
+@media only screen and (max-width: 680px) {
   .section-header {
     height: 155px;
-    padding-left: 26.5%;
+    padding-left: 18%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .section-header {
+    padding-left: 5%;
   }
 }
