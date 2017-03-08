@@ -12,3 +12,13 @@
 .about-bold {
   font-weight: bolder;
 }
+
+@media only screen and (max-width: 420px) {
+  .section-about {
+    // width: 100%;
+    margin: 0 10%;
+    p {
+      width: 70%
+    }
+  }
+}
