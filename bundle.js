@@ -22422,7 +22422,7 @@
 	    _react2.default.createElement(
 	      'p',
 	      null,
-	      'I spent the first 11 years of my career at Teach For America building operational capacity through smart solutions to growth-oriented business problems.'
+	      'I spent the first 11 years of my career at Teach For America building operational capacity through smart solutions to business problems.'
 	    ),
 	    _react2.default.createElement(
 	      'p',
