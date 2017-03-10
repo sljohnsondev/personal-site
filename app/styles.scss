@@ -63,9 +63,12 @@ a:hover:before {
 @media only screen and (max-width: 680px) {
   .main {
     height: auto;
-    margin: 0;
+    margin: 0 0 0 3%;
+    h2 {
+      margin-top: 10px;
+    }
   }
   .nav-hook {
-    top: -145px;
+    top: 0px;
   }
 }
