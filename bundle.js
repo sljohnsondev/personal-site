@@ -22509,7 +22509,7 @@
 	var Footer = function Footer() {
 	  return _react2.default.createElement(
 	    'section',
-	    { className: 'section-footer' },
+	    { className: 'section-footer main' },
 	    _react2.default.createElement('a', { className: 'nav-hook', name: 'contact' }),
 	    _react2.default.createElement(
 	      'h2',
