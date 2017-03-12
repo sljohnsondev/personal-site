@@ -22439,7 +22439,7 @@
 	      { className: 'about-bold' },
 	      _react2.default.createElement(
 	        'a',
-	        { href: 'https://drive.google.com/open?id=0B1LF3i2gTJgNYU9ZcmdsbGRXb28', target: '_blank' },
+	        { href: 'https://drive.google.com/file/d/0B1LF3i2gTJgNR3p4ZzVZSndYY0E/view?usp=sharing', target: '_blank' },
 	        'Check out my resume.'
 	      )
 	    )
