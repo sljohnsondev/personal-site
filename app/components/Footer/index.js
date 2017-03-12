@@ -3,7 +3,7 @@ import './footer-style';
 
 const Footer = () => {
   return (
-    <section className="section-footer">
+    <section className="section-footer main">
       <a className='nav-hook' name='contact'></a>
       <h2>Contact Me</h2>
       <section className='container-social'>

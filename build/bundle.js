@@ -22439,7 +22439,7 @@
 	      { className: 'about-bold' },
 	      _react2.default.createElement(
 	        'a',
-	        { href: 'https://drive.google.com/open?id=0B1LF3i2gTJgNYU9ZcmdsbGRXb28', target: '_blank' },
+	        { href: 'https://drive.google.com/file/d/0B1LF3i2gTJgNR3p4ZzVZSndYY0E/view?usp=sharing', target: '_blank' },
 	        'Check out my resume.'
 	      )
 	    )
@@ -22509,7 +22509,7 @@
 	var Footer = function Footer() {
 	  return _react2.default.createElement(
 	    'section',
-	    { className: 'section-footer' },
+	    { className: 'section-footer main' },
 	    _react2.default.createElement('a', { className: 'nav-hook', name: 'contact' }),
 	    _react2.default.createElement(
 	      'h2',
@@ -22595,7 +22595,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-footer {\n  margin: 135px auto 45vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  margin: 20px 15%;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px;\n  transition-duration: .5s; }\n  .social-media:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n\n@media only screen and (max-width: 680px) {\n  .section-footer {\n    margin: auto; } }\n", ""]);
+	exports.push([module.id, ".section-footer .main {\n  margin: 135px auto 45vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  margin: 20px 15%;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px;\n  transition-duration: .5s; }\n  .social-media:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n\n@media only screen and (max-width: 680px) {\n  .section-footer {\n    margin: auto; } }\n", ""]);
 
 	// exports
 
