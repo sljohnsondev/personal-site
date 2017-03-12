@@ -22595,7 +22595,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-footer {\n  margin: 135px auto 45vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  margin: 20px 15%;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px;\n  transition-duration: .5s; }\n  .social-media:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n\n@media only screen and (max-width: 680px) {\n  .section-footer {\n    margin: auto; } }\n", ""]);
+	exports.push([module.id, ".section-footer .main {\n  margin: 135px auto 45vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  margin: 20px 15%;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px;\n  transition-duration: .5s; }\n  .social-media:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n\n@media only screen and (max-width: 680px) {\n  .section-footer {\n    margin: auto; } }\n", ""]);
 
 	// exports
 
