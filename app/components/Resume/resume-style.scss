@@ -1,0 +1,28 @@
+.resume-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.resume-button {
+  margin-bottom: 20px;
+  font-size: 19px;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.resume-html {
+  // display: block;
+}
+
+// @media only screen and (max-width: 420px) {
+//   .section-about {
+//     // width: 100%;
+//     margin: 0 10%;
+//     p {
+//       width: 70%
+//     }
+//   }
+// }
+
+//<p className='about-bold'><a href="https://drive.google.com/file/d/0B1LF3i2gTJgNR3p4ZzVZSndYY0E/view?usp=sharing" target='_blank'>Check out my resume.</a></p>
