@@ -15,7 +15,7 @@ h2 {
 }
 .main {
   min-height: 70vh;
-  margin-left: 5%;
+  // margin-left: 5%;
   h2 {
     margin-top: 40px;
   }
@@ -60,7 +60,7 @@ a:hover:before {
   top: -144px;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 760px) {
   .main {
     height: auto;
     margin: 0 5%;
