@@ -13,8 +13,6 @@ const Footer = () => {
           <img src={require("../../Images/social/facebook.png")} alt="Sam's Facebook profile"/></a> |
         <a className="social-media" href="https://www.instagram.com/sljohnson_" target="_blank">
           <img src={require("../../Images/social/instagram.png")} alt="Sam's Instagram profile"/></a> |
-        <a className="social-media" href="https://www.twitter.com/sjohnson_" target="_blank">
-          <img src={require("../../Images/social/twitter.png")} alt="Sam's Twitter profile"/></a> |
         <a className="social-media" href="https://www.linkedin.com/in/sljohnson" target="_blank">
           <img src={require("../../Images/social/linkedin.png")} alt="Sam's LinkedIn profile"/></a> |
           <a className="social-media" href="mailto:sljohnson32@gmail.com">

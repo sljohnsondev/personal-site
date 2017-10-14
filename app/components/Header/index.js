@@ -10,7 +10,7 @@ const Header = () => {
             <img className='icon-img' src={require('../../Images/sj-icon.png')} />
           <article className='sj-info'>
             <h1>Sam Johnson</h1>
-            <h3>Front-End Developer<br/>& Product Manager</h3>
+            <h3>Front-End Developer</h3>
           </article>
         </section></a>
         <Nav />
