@@ -68,11 +68,11 @@
 
 	var _About2 = _interopRequireDefault(_About);
 
-	var _Footer = __webpack_require__(209);
+	var _Footer = __webpack_require__(210);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
-	__webpack_require__(216);
+	__webpack_require__(217);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -21948,9 +21948,7 @@
 	            _react2.default.createElement(
 	              'h3',
 	              null,
-	              'Front-End Developer',
-	              _react2.default.createElement('br', null),
-	              '& Product Manager'
+	              'Front-End Developer'
 	            )
 	          )
 	        )
@@ -21997,7 +21995,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-header {\n  height: 130px;\n  position: fixed;\n  top: 0px;\n  width: 100%;\n  background: #fafbfa;\n  padding-top: 15px;\n  z-index: 1; }\n\n.icon-info-container {\n  margin-left: 35px;\n  display: inline-flex;\n  justify-content: center; }\n\n.sj-info {\n  display: inline-block;\n  margin-top: 30px; }\n  .sj-info h1 {\n    font-size: 28px; }\n  .sj-info h3 {\n    padding: 3px 0 0 9px; }\n\n.icon-img {\n  width: 120px;\n  height: 120px;\n  margin-left: -20px; }\n\n.icon-img:hover {\n  animation: App-logo-spin infinite 2s linear; }\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg); }\n  to {\n    transform: rotate(360deg); } }\n\n@media only screen and (max-width: 680px) {\n  .section-header {\n    height: 155px;\n    padding-left: 18%; } }\n\n@media only screen and (max-width: 420px) {\n  .section-header {\n    padding-left: 0;\n    height: 123px; } }\n", ""]);
+	exports.push([module.id, ".section-header {\n  height: 130px;\n  position: fixed;\n  top: 0px;\n  width: 100%;\n  background: #fafbfa;\n  padding-top: 15px;\n  z-index: 1; }\n\n.icon-info-container {\n  margin-left: 35px;\n  display: inline-flex;\n  justify-content: center; }\n\n.sj-info {\n  display: inline-block;\n  margin-top: 30px; }\n  .sj-info h1 {\n    font-size: 30px;\n    font-weight: 500; }\n  .sj-info h3 {\n    padding-top: 4px;\n    font-size: 21px; }\n\n.icon-img {\n  width: 120px;\n  height: 120px;\n  margin-left: -20px; }\n\n.icon-img:hover {\n  animation: App-logo-spin infinite 2s linear; }\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg); }\n  to {\n    transform: rotate(360deg); } }\n\n@media only screen and (max-width: 760px) {\n  .section-header {\n    height: 155px;\n    padding-left: 18%; } }\n\n@media only screen and (max-width: 420px) {\n  .section-header {\n    padding-left: 0;\n    height: 123px; }\n  .icon-info-container {\n    margin-left: 25px; } }\n", ""]);
 
 	// exports
 
@@ -22413,7 +22411,7 @@
 
 
 	// module
-	exports.push([module.id, ".container-nav {\n  float: right;\n  margin: 35px 30px 0 0;\n  padding: 20px; }\n  .container-nav h3, .container-nav p {\n    display: inline-block;\n    font-size: 20px; }\n  .container-nav p {\n    margin: 0 15px; }\n  .container-nav a:before {\n    background-color: #000; }\n\n@media only screen and (max-width: 680px) {\n  .container-nav {\n    float: none;\n    margin: 0 47px;\n    z-index: -1;\n    padding: 0;\n    width: auto; } }\n\n@media only screen and (max-width: 420px) {\n  .container-nav {\n    display: none; } }\n", ""]);
+	exports.push([module.id, ".container-nav {\n  float: right;\n  margin: 30px 30px 0 0;\n  padding: 20px; }\n  .container-nav h3, .container-nav p {\n    display: inline-block;\n    font-size: 24px; }\n  .container-nav p {\n    margin: 0 15px; }\n  .container-nav a:before {\n    background-color: #000; }\n\n@media only screen and (max-width: 760px) {\n  .container-nav {\n    float: none;\n    margin: 0 47px;\n    z-index: -1;\n    padding: 0;\n    width: auto; } }\n\n@media only screen and (max-width: 420px) {\n  .container-nav {\n    display: none; } }\n", ""]);
 
 	// exports
 
@@ -22488,7 +22486,7 @@
 
 
 	// module
-	exports.push([module.id, ".container-hero {\n  padding-top: 131px;\n  margin: 0 20px 0 25px; }\n\n.img-hero {\n  background: url(" + __webpack_require__(196) + ") no-repeat center center;\n  border-radius: 4px;\n  background-size: cover;\n  height: 75vh;\n  text-align: center;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  margin: 0 20 0 20px; }\n\n@media only screen and (max-width: 680px) {\n  .img-hero {\n    display: none; } }\n", ""]);
+	exports.push([module.id, ".container-hero {\n  padding-top: 150px;\n  margin: 0 20px 0 25px; }\n\n.img-hero {\n  background: url(" + __webpack_require__(196) + ") no-repeat center center;\n  border-radius: 4px;\n  background-size: cover;\n  height: 75vh;\n  text-align: center;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  margin: 0 20 0 20px; }\n\n@media only screen and (max-width: 760px) {\n  .img-hero {\n    display: none; } }\n", ""]);
 
 	// exports
 
@@ -22723,7 +22721,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-code {\n  margin-top: 10vh;\n  display: block; }\n\n.projects {\n  margin: 20px 0 20px 15%;\n  display: block;\n  align-items: center; }\n\n.project {\n  display: flex;\n  align-items: center;\n  width: 80%;\n  height: auto; }\n  .project h3, .project h5, .project img {\n    display: block; }\n  .project img {\n    margin: 10px;\n    border-radius: 4px;\n    transform: scale(0.7);\n    position: relative;\n    z-index: -1; }\n  .project h3 {\n    font-size: 22px;\n    margin-bottom: 20px; }\n  .project h5 {\n    font-size: 14px;\n    margin-bottom: 18px;\n    line-height: 1.4; }\n  .project .tech {\n    font-weight: 600; }\n\n.project-text {\n  display: inline-block;\n  width: auto;\n  margin: 20px 0; }\n  .project-text img {\n    height: 50px;\n    width: 50px;\n    display: inline-block;\n    margin: 0 10px;\n    transform: scale(1); }\n\n.project-text a {\n  display: inline-block;\n  margin-left: 10px; }\n\n.project-link {\n  transition-duration: .5s; }\n  .project-link:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n\n@media only screen and (max-width: 680px) {\n  .project-text img {\n    height: 40px;\n    width: 40px; }\n  .projects {\n    margin: 20px 0 20px 0; }\n  .project {\n    width: 90%; }\n    .project .project-img {\n      transform: scale(0.5); }\n    .project img {\n      margin: 0; } }\n\n@media only screen and (max-width: 420px) {\n  .section-code {\n    margin: 0 10%; }\n  .project {\n    padding: 0 5%;\n    text-align: center; }\n    .project .project-img {\n      display: none; } }\n", ""]);
+	exports.push([module.id, ".section-code {\n  margin-top: 10vh;\n  display: block; }\n\n.projects {\n  margin: 20px 12% 20px 10%;\n  display: block;\n  align-items: center; }\n\n.project {\n  display: flex;\n  align-items: center;\n  width: auto;\n  height: auto; }\n  .project h3, .project h5, .project img {\n    display: block; }\n  .project img {\n    margin: 10px;\n    border-radius: 4px;\n    transform: scale(0.5);\n    position: relative; }\n  .project h3 {\n    font-size: 24px;\n    margin-bottom: 20px;\n    font-weight: bolder; }\n  .project h5 {\n    font-size: 19px;\n    margin-bottom: 18px;\n    line-height: 1.4; }\n  .project .tech {\n    font-weight: 600; }\n\n.project-text {\n  display: inline-block;\n  width: auto;\n  margin: 20px 0; }\n  .project-text img {\n    height: 50px;\n    width: 50px;\n    display: inline-block;\n    margin: 0 10px;\n    transform: scale(1); }\n\n.project-text a {\n  display: inline-block;\n  margin: 0 10px; }\n\n.project-link {\n  transition-duration: .5s; }\n  .project-link:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n\n@media only screen and (max-width: 760px) {\n  margin-top: 40px;\n  .project-text img {\n    height: 40px;\n    width: 40px; }\n  .projects {\n    margin: 20px 0 20px 0; }\n  .project {\n    width: 90%; }\n    .project .project-img {\n      transform: scale(0.5); }\n    .project img {\n      margin: 0; } }\n\n@media only screen and (max-width: 420px) {\n  .section-code {\n    margin: 0 10%; }\n  .project {\n    padding: 0 5%;\n    text-align: center; }\n    .project .project-img {\n      display: none; } }\n", ""]);
 
 	// exports
 
@@ -22814,13 +22812,14 @@
 	      'My skills as a front-end software developer allow me to be a more dangerous problem solver and solutions ninja.'
 	    ),
 	    _react2.default.createElement(
-	      'p',
-	      { className: 'about-bold' },
+	      'h3',
+	      { className: 'resume-link' },
 	      _react2.default.createElement(
 	        'a',
 	        { href: 'https://drive.google.com/file/d/0B1LF3i2gTJgNR3p4ZzVZSndYY0E/view?usp=sharing', target: '_blank' },
-	        'Check out my resume.'
-	      )
+	        'Check out my resume '
+	      ),
+	      _react2.default.createElement('img', { className: 'icon-arrow', src: __webpack_require__(209) })
 	    )
 	  );
 	};
@@ -22862,13 +22861,19 @@
 
 
 	// module
-	exports.push([module.id, ".section-about p {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 50px auto;\n  width: 50%;\n  font-size: 19px;\n  text-align: center;\n  line-height: 1.6; }\n\n.about-bold {\n  font-weight: bolder; }\n\n@media only screen and (max-width: 420px) {\n  .section-about {\n    margin: 0 10%; }\n    .section-about p {\n      width: 70%; } }\n", ""]);
+	exports.push([module.id, ".section-about p {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 50px auto;\n  width: 50%;\n  font-size: 19px;\n  text-align: center;\n  line-height: 1.6; }\n\n.section-about a:before {\n  background-color: #000; }\n\n.about-bold {\n  font-weight: bolder; }\n\n.resume-link {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 24px;\n  font-weight: 500;\n  margin-bottom: 80px; }\n\n.icon-arrow {\n  margin-left: 10px;\n  width: 30px;\n  height: auto; }\n\n@media only screen and (max-width: 420px) {\n  .section-about {\n    margin: 0 10%; }\n    .section-about p {\n      width: 70%; } }\n", ""]);
 
 	// exports
 
 
 /***/ }),
 /* 209 */
+/***/ (function(module, exports) {
+
+	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAArCAYAAAA+EwvfAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAABKhJREFUaIHV2WuIVVUUB/DfnRmVMY3KfESFKfZQs4RMQQyKJCIprIyI/NBrhKyo7CHRlyQzLCiioDcmWkQWQVFR9H5pVgpm78ApCrW0yWfZw+nD2rc7TnPHfe6dAf3D5XDP+e+11z577fU6JcVRwvE4A1NwHIajOT3/BxvwDT7Gm3gLf9YwV5YyueiPyzAL49K9P/AtWrFVKD8Ah+EYDEq8zXgK92JdvUoXRQNasBHt+B4LMBl9uxlXwtGYjffS2L/xsMrCeh3D8X6afA1moLFGWePwdJK1Cef0hILd4TS0CTO5Dk09JHeKOB/tuFMxM87GdOwS9npCL8gfiGfEIhYJM+0xTBXKf4ZhPSm4ExrwgFjE/XpoJ0YIs1knPElvowFPiEW01CusESuEzY8vOHaI8EpnisNa5KD3wydp3tEF590Ds8WbuCmTXxJnZXka1/H3Cxbi4ExZxwqzfVuNpnQAfsYX6JPJf1ZF2ceFp2rBPHyUnq0XO5ODBWnMtCKKl3FtGnxxBrcP3kj8u0Tk7QpT8RN2YGKG3EHYhg8zuHughLUi0ua8/XlC+RsyuCPEDrWKXdsbHkyyx2Rw/8PYNOi+DO5g7MS78m11ZpJ/fQZ3SuLOy5SNivmclcGdlbgXFJDfJHZhVSZ3q4Jm9GRS6qAM7iOJWzTAvSAy1X4Z3NeER8pyxQ0in9+I3zL4Q9N1U47wDvg1zXVgBvcrkeWOyBHcIN7m+kxFyos8JJNfxmCxA1syuGVdhnbLSmgQbnBHpiIr0vXUTD5hNpOxWl5Vtj1dB+YIb0hCc9wnEbx2iWidmy60iPO1JJNfLpJ2ZfJ9h69zybhDHOS77d2VThK7u06UpDm4Pck/KVehVxU49cIk1qZJXlK90DlXJTealKuMqJ1zvSK4R370O1QU5h0Tt2oHenEHzjsiSOXgc/yYyQVnp0mu3gvvPOE+2/EpLtH9W2oQSi/CX2nco7pPKYYmXu55QZz2naJ/0xVKKna5QUThoinvSLySZKxWvVi6MnEuKijfkjRwZBfP5qdny2X65ioo4ZYk60v/b62UsFLEimYFMSEJfqjT/fJBXKl62lwUc5LMl+25k6ereLea8KKw1bHpfz8RFdtwRK1Cu0BJpSMxPd1rFMnedlGe1oRRoi79QLjGvuItzaxD2WoYhmUqLcobxYLm1Cu4vL0L6xVUAJenOduEm64LJTwnz632BEYLsynHizU4vF6hzSLwtONmvdT6w8mikbAFz6ss4geVc1gzBooUox1LZWaGmSiJym6nqEMmpHu3qSyiDafUO1FfUSeX30otAawzxoiKq100szrHnStEC75dOJQZdc6H6NO0qtjopfIqqzIaRad7GXaLxHG+6uXlNJHBtif+NbUo3Rn9MVflI8fvwsRuFb58vCgBjxRveSquEua3XuXjxmLx0WNvmCgaAWWTWqiHOtjNuFAU6ds6TFDtt1t8J5ureDAcJWqVsqyluvgiVI9N98GJwhUeJcyqSSxsgyiSVokDWSuGiJpjQvr/Os4XrZf9BgPEIso70V02u8+iCY+pLKJVtIP2K3SOFZvld773KXSMFfvVWeiIaUL5lf8CFv00mq7ita4AAAAASUVORK5CYII="
+
+/***/ }),
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22881,7 +22886,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	__webpack_require__(210);
+	__webpack_require__(211);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22907,25 +22912,25 @@
 	      _react2.default.createElement(
 	        'a',
 	        { className: 'social-media', href: 'https://www.facebook.com/sljohnson32', target: '_blank' },
-	        _react2.default.createElement('img', { src: __webpack_require__(212), alt: 'Sam\'s Facebook profile' })
+	        _react2.default.createElement('img', { src: __webpack_require__(213), alt: 'Sam\'s Facebook profile' })
 	      ),
 	      ' |',
 	      _react2.default.createElement(
 	        'a',
 	        { className: 'social-media', href: 'https://www.instagram.com/sljohnson_', target: '_blank' },
-	        _react2.default.createElement('img', { src: __webpack_require__(213), alt: 'Sam\'s Instagram profile' })
+	        _react2.default.createElement('img', { src: __webpack_require__(214), alt: 'Sam\'s Instagram profile' })
 	      ),
 	      ' |',
 	      _react2.default.createElement(
 	        'a',
 	        { className: 'social-media', href: 'https://www.linkedin.com/in/sljohnson', target: '_blank' },
-	        _react2.default.createElement('img', { src: __webpack_require__(214), alt: 'Sam\'s LinkedIn profile' })
+	        _react2.default.createElement('img', { src: __webpack_require__(215), alt: 'Sam\'s LinkedIn profile' })
 	      ),
 	      ' |',
 	      _react2.default.createElement(
 	        'a',
 	        { className: 'social-media', href: 'mailto:sljohnson32@gmail.com' },
-	        _react2.default.createElement('img', { src: __webpack_require__(215), alt: 'Sam\'s email' })
+	        _react2.default.createElement('img', { src: __webpack_require__(216), alt: 'Sam\'s email' })
 	      )
 	    )
 	  );
@@ -22934,13 +22939,13 @@
 	exports.default = Footer;
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(211);
+	var content = __webpack_require__(212);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(188)(content, {});
@@ -22960,7 +22965,7 @@
 	}
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(187)();
@@ -22968,43 +22973,43 @@
 
 
 	// module
-	exports.push([module.id, ".section-footer .main {\n  margin: 135px auto 45vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  margin: 20px 15%;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px;\n  transition-duration: .5s; }\n  .social-media:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n\n@media only screen and (max-width: 680px) {\n  .section-footer {\n    margin: auto; } }\n", ""]);
+	exports.push([module.id, ".section-footer .main {\n  margin: 135px auto 45vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  margin: 20px 15%;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px;\n  transition-duration: .5s; }\n  .social-media:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n\n@media only screen and (max-width: 760px) {\n  .section-footer {\n    margin: auto; } }\n", ""]);
 
 	// exports
 
 
 /***/ }),
-/* 212 */
+/* 213 */
 /***/ (function(module, exports) {
 
 	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAqNJREFUaIHt2kuoTVEYB/DfOVFyvV8hjORRQhgI5RHCRISJR8lAYSATUZIMUIoyVUZeRRl5jBh4jQhRpDyvZySvFPcy+M7h4p5z9r32sc+t86912nutb6/v+6/1rW99e51NoBf2oRHfa7w8x/6CzXKFi0sYgZO4h2a1iRxGYgnuYiox8l8xIzOz2o5Z+CZmQiMOZ2pO+3Acz/IYLKajo+EuBuULN7Xq8+XQDPlKUrWOOoGs0ek/6hqGNZiD0QobkQiHn/AOL/EQd3AOVyt1+j8I5LEV2wr6ruII3oidtTMa0BuDMAlLsQk9K3VebQJ5HMIqHMUWPErw3BkMSKqgmtgojN+O5ZIZD2NxM4lgNQl0FW5zGjuFuyRBP7G53kgiXE0XmuVXllvO+By6iY3psxh9Es5ANQlMFIZfLtHeFbuEa/Ut1L0X0QhuJVFSTQJD8UqMams4gNU4huvCnYdgHO7jdRIl1STQgA9l2heIcLriX5RUcxHn0FSmvbNf7tJudPhUosMTSHMNrMfMFveT8bHCM/NxopX6j1indAD4iTQJrMQYkYwR/n2+jPxZjMeoP+r7YiB24EElpWlHoYuYl1C2VPTZjN0ShtFaXAP98EWk2BVRiwT6i9FPlDul7UJdxG5axFulF2J3ref7QyR0H9Il0IzpeNKi7gqmlJC/huEl2s4kVZomgQ2Y0OJ+LfqUke+NC1o/VCuVAP6FNAlcK5QiZoswWQ63cfBflNbiIm4T6gSyRp1A1qgTyBp1AlmjTiBr1AlkjSKBXKZWtA/54s8Lf58MdASMRmNeHK4u8/uZTq1jLhbjWE68l14Ss3BKeh97LBIfkDwt0T5MvACda0OfeWHnQvEyNK3Y0BN78Vj8a5hGaRIDUa40tbHPr+LgbA96wA8Rh8DvSpG90QAAAABJRU5ErkJggg=="
 
 /***/ }),
-/* 213 */
+/* 214 */
 /***/ (function(module, exports) {
 
 	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAABDdJREFUaIHV2luIVWUUB/DfOfoQdPFaZiVBQ05m1EOSZReyiy9ChWUkGEVBGZH0oEVXpwvUkGR3CIIuUBYkWRA9FIEPo5RGQRmZRGmplZQOWYGOc3pY32mGYdx7n9l7nPEPe75v9lnnW2t9a+11+fYhMB6rsAONUX7twjNJZrU06cJ0rMH36DU6UUM7rsMWXEjs/AFcOmJitY7L0CMsYQfeHFFxhoZ3sLOOk4Q5jjRswdR6+me0+nwWeqGeRzXaMbYF2hrOwxxMGh5xdGODiIqNIl8oqkA7Xsfs9H9vUQYtoKbPIzbhJnyb96UiLjRd7MppuCPde0woPwaP46h+87FDvMZgIm7BNGGFM8sqUMNrIubOxit5C7aINtyLe3Aq9uDVxGu/sHota4E8Bc7FBXgQP5YUdiDm4hs8iU7hLhelz7bhfsxK/A+JPAXmpHHtkMU8NJ7FTzhZ7P4uURU08d4AGQZFngIT07i7dflyMVNszE5sx/s4q9/nf4pgMT5rkaJ5oOqIQ7jPArH7bbgGX7fKt5U8UDWW4iPhRrAPN7a6yEgqsA4zhBV6RSn/S6uLjKQCRLRZlUuVgVaegYboG2CFPv9cMcj9Kq6eIoIVtcAjBemqRC8eziMqqkBHKVGGjlwFhqOcbsdzouHYn67vROI6vWpmVSpQF662GbcJBZ5O11bcLsqFh+TUN62gqihUw4tYgjewHL8PoJkilHkUx4s8UBpVWWCREL4TN+MMfIJ/8Q8+Fu6zWITNu8TRSCVoiGpzMHTIT+djRDb9PM0XiQiyXQi7Cj/jIBYKq38p3CpvA3tEj5EpW1kFLkk012OyKAnW4eh+NMeIBqUbE4QlGjg/Z+1cBapwoVlp/BRXCcGX4u9+NPtwN47D/ERL9BulUIUCzXL3D5yS5psHoWvem6bvAZ9QlnkVCuxN4yTh93D2IHTNe9twQprvKcu8CgU2pvFyfIC/8DyO7UczTiSyvfhQnG0Spw+lUEUeWC+i0DK8i1uxWmTfZiu6QMT+heLZWCai0EYlUYUFDuprwJ8QSlyMr0S0WYwvRG+7Fk/hHNyngiPNqjLx2+JEYTmmih2eP4DmRLyFG4Q7ramCcVEFarLzQUNk199ErbNQZOLmydpMXJHWeUBYqijfTOQp0J3GyfJPJnpFnbMad2IerhTK/YCX8EKaF8Ek4eKZkSpPgfVpXICXCzLeKpJWWVybxq48wqxSoibORXeLo4/DhbbEc4NDu1GHAqVEQ1SXdXwmKs4pGYuWQS2tvSTxqifeuWdDWRZool240+F6lbo+8cxCBxpFo1DzleasNGYe95XAXuHzm1T8gkNacKMKsmeVOOLfkTUVGI6HcrhRb/75VfSwRxpmiJf0///UYO6IitMa5okicmVN1Opdwgprje4fe9SFnFeLDq/5Sso4rBQdVc8ovg6I3qNT9Nf+A/jrZQ0aILtSAAAAAElFTkSuQmCC"
 
 /***/ }),
-/* 214 */
+/* 215 */
 /***/ (function(module, exports) {
 
 	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAA2xJREFUaIHt2l2IVVUUB/Df3ErtA2eSEooeKvqyCXyKiHrog8QkkCgiqIciH0ctiigQmuohIqEQJIqCQKR6kMQahOkhsIQKiiAiDJKMxqSwLCgrm7k9rH3ieuace8+x+zXhH/bd5+69zt5r7bX3+tj3EhjD85hBc8jL93gh8WwkPezFZdiBrzBnODGCy3En9uE6YuWP4YaBsVUfN+FvoQkz2D5Qdk4Mb+JgA+cLdSw07MN5jfRlWPd8O8xBoxPVsOPUGrSLsQZX4S/swYfCtA0MVQW4Em/j4lz7DtyDP7vJVB1U2UKLsQtLsBqLsAyP4w482TPuKqKJTW361ySa2wr6XsfPBnOWJtGsMvFFqf64oO8j4cmXdYmp2qgiwEyqxwv6xvE7jnSNo5qoIsC7OIQXhQUiDv8DuB/bhFsfCKpYod9E8LQLn+MHnIUz8D4e7Rl3FVDVjGbR6r3CpB7Fe3gHs71hrRqqCjCOs/FJKhmuxZc4nL6PYLRkjDn8mp6X4maswOnCkn0hnOPRijz9i05mdDRNXpZgvNFCO9GGrom78Iw4+Flb69hHhHlcUoHvSTSraOA0sbJbsTPX91JussycPuL4rTWGJ/CqOD/b8DI+FSs+hmuwLtGtxq1CMx3RSQPnJJqJgr7PHC/UpkSbX5gLUvusCD3a4XYRmkyLhSvDpIqOrA6ywK5s4qd1Tp7ewnrcgrs7TVgnGq2CLK/IC/AdLsV+rBTMLRJbaNr8fOQVbMBDIlwpRbcFyFCkgf0ih12fa5/GWvzR0jaH1/CcyBgPlk3UqyCsKEfYKJjfguXCEU5gFR4uoN+T6qvbTdSvKLKBx7AbD+JHYX22Ygr3Fbzzdaov7DRwP7A8lSnztfMBLsGZufZfUr203cD9EiA7a0WZ20+pHsu1ZwHiKe0G7rYA7ex2GcosVyX0SoC+XdP0SoC+3VQs+HuhYTgD/wknt1AJFqwA2XgLVoC+o44AW4R3bC0rFa92nu5Aam+nmQMF73V6p1I4fVgEYOeW9O9ued4uXH+RNZoVtxh5TOEpxSFDU4VfjzqllMOKST1IKfuOkwIMGv8bAfoew3QBjezjEK4YLC8nhBXSbxfZXw1uHCg79bBK+JXN2W3yXqGFnYb7zx4NwedacZt9fdYxis341nx3PkzlGL7Bs9JtxT+gChPpDYNPegAAAABJRU5ErkJggg=="
 
 /***/ }),
-/* 215 */
+/* 216 */
 /***/ (function(module, exports) {
 
 	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAA1pJREFUaIHt2luIVVUcx/HPOWMIkSYRhFlJ9VCZmC9lJhkVE0N0J4IiMBIJguqtCLoMBEY11CA+hNFTkVhkSUUU3ai0IlHGIrAou01CL9ENqhk9Pfy3ZXH29Wxnn5H5wplzZu+1zv79197rv37rzyGYh8cwjk6fv/ZiNNGslXzYitPwPHZjv/6kJXReK3SuIEZ+Ehc2p6s0FwnNo8Rjs6lROdXYhB/aOF7cjunGbsxvJ//06zOfxX5o57Xqd2YCaJqZAJpmVsVzTTDZ7WCayBb+wMAhk1OOfVK0pgXQ8a/4L8Sq92f9ujKZjetxqpyB7GA45fgWcet2YkG9+jI5AbswgRcSLf9nGJ28SbwTl4pR+BBL6tOYylJ8hIUYwlhW4yJZ6HWcL+bF+7ikR4FZDOE9cddX4M28DkXT6BiW4Su8gpsrCsxiDV7G5zgXnxbpVGYdGMdKMSpP4gFxV3qljbXYgNdwgdh1Fe5chl9wOZ7APXhKZIuqzMbTuBuP40r8VuYLqixWE7gFe8TILcA1+Knk9xwjMsxK3IkR3bNNJlWtRAcP4gach204uUT/U5I+y3AdHlFBPL17oY0YxHEizZ5doM85+ADH4mI814uAOszcu1iO30UKvCKj7VV4B78mfbb2evG63OgebMePeBG3dWlzBzbjO3yMr+u4cB0BzBOWYwtOT97X4VHhYQZE+WNU1J2W4lUxgefWcP1ML9Tt+MGcKB6bg2tKA6LW1BEjvjn5/LD/DtigePzyPNawDC+UJTQvgLPEZFyccv52UTnYh1tT2iwR2ejMjOv8I7Tb8aqblkHcK0p84ylt1uEzEcRbKW12iTT6DO7H22WFVAngJiH8MrEyZ/FGge/7XqzuGzFfBFOYMpO4hfvEynm1fPFl+Fmk2CHcpYTHKhrAEcL/tLFa2Im6+QurMAfrFdzOFglgjkh/26RPqLroCJM4hmdxZF6HvDlwlPDoa4XVnSo2iLnxEnZkNcwL4Eaxsi5PXlPNl2Kjk0pWAN/iJGGdm+abtBNZASw8BEJqZ9qXFmcCaJqZAJrmsAmgjgLVVNM+8Gev2ApONxZJ9iIHfmow2KiccgyJnd5IC0eLqvMi4Xv6+ccebZwhSpCfiKo5IogR4X8m+/g1IcoxDwmb729XGf9aFnRNhAAAAABJRU5ErkJggg=="
 
 /***/ }),
-/* 216 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(217);
+	var content = __webpack_require__(218);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(188)(content, {});
@@ -23024,7 +23029,7 @@
 	}
 
 /***/ }),
-/* 217 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(187)();
@@ -23032,7 +23037,7 @@
 
 
 	// module
-	exports.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  background: #fafbfa; }\n\nh1, h2, h3, h4, h5, p {\n  font-family: 'Montserrat', sans-serif; }\n\nh2 {\n  display: flex;\n  justify-content: center;\n  font-size: 34px; }\n\n.main {\n  min-height: 70vh;\n  margin-left: 5%; }\n  .main h2 {\n    margin-top: 40px; }\n  .main h4 {\n    display: flex;\n    justify-content: center;\n    margin: 10px 0 30px 0; }\n\na {\n  height: auto;\n  position: relative;\n  text-decoration: none;\n  padding-left: 3px;\n  color: black; }\n\na:before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 2px;\n  bottom: 0;\n  left: 0;\n  visibility: hidden;\n  -webkit-transform: scaleX(0);\n  transform: scaleX(0);\n  -webkit-transition: all 0.3s ease-in-out 0s;\n  transition: all 0.3s ease-in-out 0s; }\n\na:hover:before {\n  visibility: visible;\n  -webkit-transform: scaleX(1);\n  transform: scaleX(1); }\n\n.nav-hook {\n  top: -110px; }\n\n.home {\n  top: -144px; }\n\n@media only screen and (max-width: 680px) {\n  .main {\n    height: auto;\n    margin: 0 0 0 3%; }\n    .main h2 {\n      margin-top: 10px; }\n  .nav-hook {\n    top: 0px; } }\n", ""]);
+	exports.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  background: #fafbfa; }\n\nh1, h2, h3, h4, h5, p {\n  font-family: 'Montserrat', sans-serif; }\n\nh2 {\n  display: flex;\n  justify-content: center;\n  font-size: 34px; }\n\n.main {\n  min-height: 70vh; }\n  .main h2 {\n    margin-top: 40px; }\n  .main h4 {\n    display: flex;\n    justify-content: center;\n    margin: 10px 0 30px 0;\n    font-size: 19px; }\n\na {\n  height: auto;\n  position: relative;\n  text-decoration: none;\n  color: black; }\n\na:before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 2px;\n  bottom: 0;\n  left: 0;\n  visibility: hidden;\n  -webkit-transform: scaleX(0);\n  transform: scaleX(0);\n  -webkit-transition: all 0.3s ease-in-out 0s;\n  transition: all 0.3s ease-in-out 0s; }\n\na:hover:before {\n  visibility: visible;\n  -webkit-transform: scaleX(1);\n  transform: scaleX(1); }\n\n.nav-hook {\n  top: -180px; }\n\n.home {\n  top: -150px; }\n\n@media only screen and (max-width: 760px) {\n  .main {\n    height: auto;\n    margin: 0 5%; }\n  .nav-hook {\n    top: -200px; } }\n", ""]);
 
 	// exports
 
