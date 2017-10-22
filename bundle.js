@@ -22914,7 +22914,11 @@
 	        { className: 'social-media', href: 'https://www.facebook.com/sljohnson32', target: '_blank' },
 	        _react2.default.createElement('img', { src: __webpack_require__(213), alt: 'Sam\'s Facebook profile' })
 	      ),
-	      ' |',
+	      _react2.default.createElement(
+	        'span',
+	        { className: 'social-media-divider-hide' },
+	        '|'
+	      ),
 	      _react2.default.createElement(
 	        'a',
 	        { className: 'social-media', href: 'https://www.instagram.com/sljohnson_', target: '_blank' },
@@ -22926,7 +22930,11 @@
 	        { className: 'social-media', href: 'https://www.linkedin.com/in/sljohnson', target: '_blank' },
 	        _react2.default.createElement('img', { src: __webpack_require__(215), alt: 'Sam\'s LinkedIn profile' })
 	      ),
-	      ' |',
+	      _react2.default.createElement(
+	        'span',
+	        { className: 'social-media-divider-hide' },
+	        '|'
+	      ),
 	      _react2.default.createElement(
 	        'a',
 	        { className: 'social-media', href: 'mailto:sljohnson32@gmail.com' },
@@ -22973,7 +22981,7 @@
 
 
 	// module
-	exports.push([module.id, ".section-footer .main {\n  margin: 135px auto 45vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  margin: 20px 15%;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px;\n  transition-duration: .5s; }\n  .social-media:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n\n@media only screen and (max-width: 760px) {\n  .section-footer {\n    margin: auto; } }\n", ""]);
+	exports.push([module.id, ".section-footer .main {\n  margin: 135px auto 45vh; }\n\n.container-social {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  margin: 20px 15%;\n  padding: 8px 15px;\n  align-items: center; }\n\n.social-media {\n  display: inline-flex;\n  margin: 20px 20px 30px 20px;\n  transition-duration: .5s; }\n  .social-media:hover {\n    transform: scale(1.2);\n    transition-duration: .5s; }\n\n@media only screen and (max-width: 760px) {\n  .section-footer {\n    margin: auto; }\n  .social-media-divider-hide {\n    display: none; } }\n", ""]);
 
 	// exports
 
