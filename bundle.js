@@ -22586,7 +22586,7 @@
 	          _react2.default.createElement(
 	            'h5',
 	            null,
-	            'An open API with publicly available, school-based education data in Colorado'
+	            'Open API with publicly available, school-based education data'
 	          ),
 	          _react2.default.createElement(
 	            'h5',
