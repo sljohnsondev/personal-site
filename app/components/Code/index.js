@@ -24,7 +24,7 @@ const Code = () => {
           <img className='project-img' src={require('../../Images/projects/grad-cap.png')} />
           <article className='project-text'>
             <h3>Colorado Education Data API</h3>
-            <h5>An open API with publicly available, school-based education data in Colorado</h5>
+            <h5>Open API with publicly available, school-based education data</h5>
             <h5 className='tech'>Postgres w/ Express & Knex, Chai/Chai HTTP</h5>
             <div className='project-links'>
               <a className='project-link' href='https://github.com/sljohnson32/CDoE_data_api' target="_blank"><img src={require('../../Images/social/github.png')} /></a>
