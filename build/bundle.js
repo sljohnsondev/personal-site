@@ -22553,7 +22553,7 @@
 	          _react2.default.createElement(
 	            'h5',
 	            { className: 'tech' },
-	            'React.js - Redux - Firebase - Google Maps APIs - Enzyme/Chai/Sinon'
+	            'React.js, Redux, Postgres w/ Express & Knex, Google Maps APIs, Enzyme/Chai/Chai HTTP'
 	          ),
 	          _react2.default.createElement(
 	            'div',
@@ -22566,6 +22566,44 @@
 	            _react2.default.createElement(
 	              'a',
 	              { className: 'project-link', href: 'https://school-finder-86e85.firebaseapp.com/', target: '_blank' },
+	              _react2.default.createElement('img', { src: __webpack_require__(202) })
+	            )
+	          )
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'article',
+	        { className: 'project' },
+	        _react2.default.createElement('img', { className: 'project-img', src: __webpack_require__(200) }),
+	        _react2.default.createElement(
+	          'article',
+	          { className: 'project-text' },
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Colorado Education Data API'
+	          ),
+	          _react2.default.createElement(
+	            'h5',
+	            null,
+	            'Open API with publicly available, school-based education data'
+	          ),
+	          _react2.default.createElement(
+	            'h5',
+	            { className: 'tech' },
+	            'Postgres w/ Express & Knex, Chai/Chai HTTP'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'project-links' },
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'project-link', href: 'https://github.com/sljohnson32/CDoE_data_api', target: '_blank' },
+	              _react2.default.createElement('img', { src: __webpack_require__(201) })
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'project-link', href: 'https://cdoe-data-api.herokuapp.com/', target: '_blank' },
 	              _react2.default.createElement('img', { src: __webpack_require__(202) })
 	            )
 	          )
@@ -22591,7 +22629,7 @@
 	          _react2.default.createElement(
 	            'h5',
 	            { className: 'tech' },
-	            'React.js - Firebase - Enzyme/Chai/Sinon'
+	            'React.js, Firebase, Enzyme/Chai/Sinon'
 	          ),
 	          _react2.default.createElement(
 	            'div',
@@ -22629,7 +22667,7 @@
 	          _react2.default.createElement(
 	            'h5',
 	            { className: 'tech' },
-	            'React.js - Redux - External API - Sass - Enzyme/Chai'
+	            'React.js, Redux, External API, Sass, Enzyme/Chai'
 	          ),
 	          _react2.default.createElement(
 	            'div',
@@ -22662,7 +22700,7 @@
 	          _react2.default.createElement(
 	            'h5',
 	            { className: 'tech' },
-	            'React.js - React Router - External API - Sass - Enzyme/Chai'
+	            'React.js, React Router, External API, Sass, Enzyme/Chai'
 	          ),
 	          _react2.default.createElement(
 	            'div',
