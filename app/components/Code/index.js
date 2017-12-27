@@ -16,7 +16,7 @@ const Code = () => {
             <h5 className='tech'>React, Redux, Node, Express, Knex, PostgreSQL, Google Maps APIs, Enzyme/Chai/Chai HTTP</h5>
             <div className='project-links'>
               <a className='project-link' href='https://github.com/sljohnson32/school-finder' target="_blank"><img src={require('../../Images/social/github.png')} /></a>
-              <a className='project-link' href='https://school-finder-86e85.firebaseapp.com/' target="_blank"><img src={require('../../Images/social/browser.png')} /></a>
+              <a className='project-link' href='https://denver-school-finder.herokuapp.com' target="_blank"><img src={require('../../Images/social/browser.png')} /></a>
             </div>
           </article>
         </article>

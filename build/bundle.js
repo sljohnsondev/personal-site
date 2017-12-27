@@ -22553,7 +22553,7 @@
 	          _react2.default.createElement(
 	            'h5',
 	            { className: 'tech' },
-	            'React.js, Redux, Postgres w/ Express & Knex, Google Maps APIs, Enzyme/Chai/Chai HTTP'
+	            'React, Redux, Node, Express, Knex, PostgreSQL, Google Maps APIs, Enzyme/Chai/Chai HTTP'
 	          ),
 	          _react2.default.createElement(
 	            'div',
@@ -22565,7 +22565,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'a',
-	              { className: 'project-link', href: 'https://school-finder-86e85.firebaseapp.com/', target: '_blank' },
+	              { className: 'project-link', href: 'https://denver-school-finder.herokuapp.com', target: '_blank' },
 	              _react2.default.createElement('img', { src: __webpack_require__(202) })
 	            )
 	          )
@@ -22586,12 +22586,12 @@
 	          _react2.default.createElement(
 	            'h5',
 	            null,
-	            'Open API with publicly available, school-based education data'
+	            'RESTful API with publicly available, school-based education data'
 	          ),
 	          _react2.default.createElement(
 	            'h5',
 	            { className: 'tech' },
-	            'Postgres w/ Express & Knex, Chai/Chai HTTP'
+	            'Node, Express, Knex, PostgreSQL, Chai/Chai HTTP'
 	          ),
 	          _react2.default.createElement(
 	            'div',
@@ -22629,7 +22629,7 @@
 	          _react2.default.createElement(
 	            'h5',
 	            { className: 'tech' },
-	            'React.js, Firebase, Enzyme/Chai/Sinon'
+	            'React, Firebase, Enzyme/Chai/Sinon'
 	          ),
 	          _react2.default.createElement(
 	            'div',
