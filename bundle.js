@@ -22565,7 +22565,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'a',
-	              { className: 'project-link', href: 'https://school-finder-86e85.firebaseapp.com/', target: '_blank' },
+	              { className: 'project-link', href: 'https://denver-school-finder.herokuapp.com', target: '_blank' },
 	              _react2.default.createElement('img', { src: __webpack_require__(202) })
 	            )
 	          )
