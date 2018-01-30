@@ -32,6 +32,18 @@ const Code = () => {
             </div>
           </article>
         </article>
+        <article className='project last-project'>
+          <img className='project-img' src={require('../../Images/projects/chuckle.png')} />
+          <article className='project-text'>
+            <h3>Chuckle Norris Joke Machine</h3>
+            <h5>Random joke generator built on external API</h5>
+            <h5 className='tech'>React.js, React Router, External API, Sass, Enzyme/Chai</h5>
+            <div className='project-links'>
+              <a className='project-link' href='https://github.com/sljohnson32/chuckle-norris' target="_blank"><img src={require('../../Images/social/github.png')} /></a>
+              <a className='project-link' href='https://chuckle-norris.firebaseapp.com/' target="_blank"><img src={require('../../Images/social/browser.png')} /></a>
+            </div>
+          </article>
+        </article>
         <article className='project'>
           <img className='project-img' src={require('../../Images/projects/chat.png')} />
           <article className='project-text'>
@@ -52,18 +64,6 @@ const Code = () => {
             <h5 className='tech'>React.js, Redux, External API, Sass, Enzyme/Chai</h5>
             <div className='project-links'>
               <a className='project-link' href='https://github.com/sljohnson32/redux-weather-app' target="_blank"><img src={require('../../Images/social/github.png')} /></a>
-            </div>
-          </article>
-        </article>
-        <article className='project last-project'>
-          <img className='project-img' src={require('../../Images/projects/chuckle.png')} />
-          <article className='project-text'>
-            <h3>Chuckle Norris Joke Machine</h3>
-            <h5>Random joke generator built on external API</h5>
-            <h5 className='tech'>React.js, React Router, External API, Sass, Enzyme/Chai</h5>
-            <div className='project-links'>
-              <a className='project-link' href='https://github.com/sljohnson32/chuckle-norris' target="_blank"><img src={require('../../Images/social/github.png')} /></a>
-              <a className='project-link' href='https://sljohnson32.github.io/chuckle-norris/#/' target="_blank"><img src={require('../../Images/social/browser.png')} /></a>
             </div>
           </article>
         </article>
