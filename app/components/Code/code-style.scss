@@ -28,7 +28,7 @@
   }
   h3 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin: 12px 0 20px 0;
     font-weight: bolder;
   }
   h5 {
@@ -48,6 +48,7 @@ img.project-img {
   padding: 2px;
   margin: 0;
   transform: scale(.8);
+  transition-duration: 1s;
   width: 350px;
   &:hover {
     border: 3px solid var(--black);
@@ -68,20 +69,20 @@ img.project-img {
   }
 }
 
-.project-text a {
-  display: inline-block;
-}
-
 a.project-link {
   display: flex;
   align-items: center;
-  transition-duration: .5s;
+  transition-duration: 1s;
   &:hover {
     transform: scale(1.2);
-    transition-duration: .5s;
-    &.github {
-      margin-left: 20px;
-    }
+    transition-duration: 1s;
+  }
+}
+
+a.project-link.github {
+  max-width: 300px;
+  &:hover {
+    transform: scale(1.1);
   }
 }
 
