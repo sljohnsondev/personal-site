@@ -2,10 +2,11 @@
 
 :root {
   --black: #272727;
+  --light-gray: #fafbfa
 }
 
 body {
-  background: #fafbfa;
+  background: var(--light-gray);
 }
 
 h1, h2, h3, h4, h5, p {

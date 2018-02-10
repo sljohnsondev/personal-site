@@ -8,15 +8,15 @@
 }
 
 .projects {
-  margin: 15px 12% 15px 10%;
+  margin: 15px 5vw;
   display: block;
   align-items: center;
 }
 
 .project {
   display: flex;
-  align-items: center;
-  width: auto;
+  align-items: flex-start;
+  width: 88vw;
   height: auto;
   h3, h5, img {
     display: block;
@@ -39,6 +39,19 @@
   }
   .tech {
     font-weight: 600;
+  }
+}
+
+img.project-img-test {
+  border: 3px solid var(--light-gray);
+  border-radius: 8px;
+  height: auto;
+  padding: 2px;
+  margin: 0;
+  transform: scale(.8);
+  width: 350px;
+  &:hover {
+    border: 3px solid var(--black);
   }
 }
 
