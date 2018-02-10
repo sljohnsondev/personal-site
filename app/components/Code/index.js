@@ -40,7 +40,7 @@ const Code = () => {
             </div>
           </article>
         </article>
-        <article className='project last-project'>
+        <article className='project'>
           <a className='project-link' href='https://shoot-the-breeze-8b841.firebaseapp.com/' target="_blank"><img className='project-img' src={require('../../Images/projects/shoot-the-breeze.png')} /></a>
           <article className='project-text'>
             <h3>Shoot The Breeze</h3>
