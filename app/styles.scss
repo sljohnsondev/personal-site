@@ -1,11 +1,16 @@
 @import 'reset';
 
+:root {
+  --black: #272727;
+}
+
 body {
   background: #fafbfa;
 }
 
 h1, h2, h3, h4, h5, p {
   font-family: 'Montserrat', sans-serif;
+  color: var(--black)
 };
 
 h2 {
@@ -31,7 +36,7 @@ a {
   height: auto;
   position: relative;
   text-decoration: none;
-  color: black;
+  color: var(--black);
 }
 a:before {
   content: "";
