@@ -4,7 +4,7 @@
 }
 
 .code-header {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .projects {
@@ -23,7 +23,6 @@
   }
   img{
     margin: 10px;
-    border-radius: 4px;
     transform: scale(.5);
     position: relative;
   }
@@ -42,7 +41,7 @@
   }
 }
 
-img.project-img-test {
+img.project-img {
   border: 3px solid var(--light-gray);
   border-radius: 8px;
   height: auto;
@@ -52,6 +51,7 @@ img.project-img-test {
   width: 350px;
   &:hover {
     border: 3px solid var(--black);
+    transition-duration: 1s;
   }
 }
 
@@ -60,8 +60,8 @@ img.project-img-test {
   width: auto;
   margin: 20px 0;
   img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: auto;
     display: inline-block;
     margin: 0 10px;
     transform: scale(1);
@@ -70,14 +70,18 @@ img.project-img-test {
 
 .project-text a {
   display: inline-block;
-  margin: 0 10px;
 }
 
-.project-link {
+a.project-link {
+  display: flex;
+  align-items: center;
   transition-duration: .5s;
   &:hover {
     transform: scale(1.2);
     transition-duration: .5s;
+    &.github {
+      margin-left: 20px;
+    }
   }
 }
 
