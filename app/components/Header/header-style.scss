@@ -43,10 +43,13 @@
   to { transform: rotate(360deg); }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 763px) {
   .section-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
     height: 155px;
-    padding-left: 18%;
   }
 }
 
