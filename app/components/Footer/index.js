@@ -11,12 +11,13 @@ const Footer = () => {
           <img src={require("../../Images/social/github.png")} alt="Sam's GitHub profile"/></a> |
         <a className="social-media" href="https://www.facebook.com/sljohnson32" target="_blank">
           <img src={require("../../Images/social/facebook.png")} alt="Sam's Facebook profile"/></a>
-          <span className='social-media-divider-hide'>|</span>
+          <span className='social-media-divider-hide second'>|</span>
         <a className="social-media" href="https://www.instagram.com/sljohnson_" target="_blank">
-          <img src={require("../../Images/social/instagram.png")} alt="Sam's Instagram profile"/></a> |
+          <img src={require("../../Images/social/instagram.png")} alt="Sam's Instagram profile"/></a>
+          <span className='social-media-divider-hide third'>|</span>
         <a className="social-media" href="https://www.linkedin.com/in/sljohnson" target="_blank">
           <img src={require("../../Images/social/linkedin.png")} alt="Sam's LinkedIn profile"/></a>
-          <span className='social-media-divider-hide'>|</span>
+          <span className='social-media-divider-hide fourth'>|</span>
           <a className="social-media" href="mailto:sljohnson32@gmail.com">
             <img src={require("../../Images/social/email.png")} alt="Sam's email"/></a>
       </section>

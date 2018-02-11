@@ -8,14 +8,14 @@
 }
 
 .projects {
-  margin: 15px 5vw;
+  margin: 15px 5vw 15px 7vw;
   display: block;
   align-items: center;
 }
 
 .project {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   width: 88vw;
   height: auto;
   h3, h5, img {
@@ -28,7 +28,7 @@
   }
   h3 {
     font-size: 24px;
-    margin: 12px 0 20px 0;
+    margin-bottom: 20px;
     font-weight: bolder;
   }
   h5 {
@@ -48,11 +48,11 @@ img.project-img {
   padding: 2px;
   margin: 0;
   transform: scale(.8);
-  transition-duration: 1s;
+  transition-duration: .9s;
   width: 350px;
   &:hover {
     border: 3px solid var(--black);
-    transition-duration: 1s;
+    transition-duration: .9s;
   }
 }
 
@@ -64,7 +64,7 @@ img.project-img {
     height: 40px;
     width: auto;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 10px 0 5px;
     transform: scale(1);
   }
 }
@@ -72,36 +72,45 @@ img.project-img {
 a.project-link {
   display: flex;
   align-items: center;
-  transition-duration: 1s;
+  transition-duration: .9s;
   &:hover {
     transform: scale(1.15);
-    transition-duration: 1s;
+    transition-duration: .9s;
   }
 }
 
 a.project-link.github {
-  max-width: 300px;
+  max-width: 280px;
   &:hover {
     transform: scale(1.1);
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 763px) {
   margin-top: 40px;
-  .project-text img {
-    height: 40px;
-    width: 40px;
+
+  .projects {
+    margin: 5% 0 20px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .projects{
-    margin: 20px 0 20px 0;
-  }
-  .project {
+
+  article.project {
     width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    a {
+      display: flex;
+      margin: 0 auto;
+    }
     .project-img {
-      transform: scale(.5);
+      display: none;
     }
     img {
-      margin: 0;
+      margin-right: 5px;
     }
   }
 }
@@ -110,11 +119,25 @@ a.project-link.github {
   .section-code {
     margin: 0 10%;
   }
-  .project {
-    padding: 0 5%;
+
+  article.project {
+    align-items: center;
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
     text-align: center;
     .project-img {
       display: none;
     }
+    .project-text {
+      width: 100%;
+    }
+    a.project-link.github{
+      margin: 0 auto;
+    }
+    h4 {
+      margin-left: 5px;
+    }
   }
+
 }

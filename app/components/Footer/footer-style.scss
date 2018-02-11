@@ -21,11 +21,42 @@
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 763px) {
   .section-footer {
     margin: auto;
   }
+  .social-media-divider-hide.fourth {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 622px) {
   .social-media-divider-hide {
-    display: none;
+    &.third {
+      color: white;
+    }
+    &.fourth {
+      color: var(--black);
+    }
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .social-media-divider-hide {
+    &.second {
+      color: white;
+    }
+    &.third {
+      color: var(--black);
+    }
+    &.fourth{
+      color: white;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .social-media-divider-hide {
+    
   }
 }
