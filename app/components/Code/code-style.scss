@@ -51,7 +51,7 @@ img.project-img {
   transition-duration: .9s;
   width: 350px;
   &:hover {
-    border: 3px solid var(--orange);
+    // border: 3px solid var(--orange);
     opacity: .9;
     transition-duration: .9s;
   }
@@ -77,16 +77,6 @@ a.project-link {
   &:hover {
     transform: scale(1.05);
     transition-duration: .9s;
-  }
-}
-
-a.project-link.github {
-  max-width: 280px;
-  padding: 3px 0;
-  transition-duration: .9s;
-  border-bottom: 3px solid transparent;
-  &:hover {
-    border-bottom: 3px solid var(--orange);
   }
 }
 

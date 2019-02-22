@@ -19,9 +19,8 @@
   margin: 20px 20px 30px 20px;
   transition-duration: .5s;
   &:hover {
-    border: 2px solid var(--orange);
     transform: scale(1.2);
-    transition-duration: .5s;
+    transition-duration: 1s;
   }
 }
 
@@ -30,18 +29,12 @@
   .section-footer {
     margin: auto;
   }
-  .social-media-divider-hide.fourth {
-    color: white;
-  }
 }
 
 @media only screen and (max-width: 659px) {
   .social-media-divider-hide {
     &.third {
       color: white;
-    }
-    &.fourth {
-      color: var(--black);
     }
   }
 }
@@ -53,9 +46,6 @@
     }
     &.third {
       color: var(--black);
-    }
-    &.fourth{
-      color: white;
     }
   }
 }
