@@ -12,45 +12,40 @@
 }
 
 .social-media {
+  border: 2px solid var(--light-gray);
+  border-radius: 6px;
+  padding: 1px;
   display: inline-flex;
   margin: 20px 20px 30px 20px;
   transition-duration: .5s;
   &:hover {
     transform: scale(1.2);
-    transition-duration: .5s;
+    transition-duration: 1s;
   }
 }
+
 
 @media only screen and (max-width: 763px) {
   .section-footer {
     margin: auto;
   }
-  .social-media-divider-hide.fourth {
-    color: white;
-  }
 }
 
-@media only screen and (max-width: 622px) {
+@media only screen and (max-width: 659px) {
   .social-media-divider-hide {
     &.third {
       color: white;
     }
-    &.fourth {
-      color: var(--black);
-    }
   }
 }
 
-@media only screen and (max-width: 476px) {
+@media only screen and (max-width: 505px) {
   .social-media-divider-hide {
     &.second {
       color: white;
     }
     &.third {
       color: var(--black);
-    }
-    &.fourth{
-      color: white;
     }
   }
 }

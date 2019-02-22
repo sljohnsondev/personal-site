@@ -42,7 +42,7 @@
 }
 
 img.project-img {
-  border: 3px solid var(--light-gray);
+  border: 3px solid transparent;
   border-radius: 8px;
   height: auto;
   padding: 2px;
@@ -51,7 +51,8 @@ img.project-img {
   transition-duration: .9s;
   width: 350px;
   &:hover {
-    border: 3px solid var(--black);
+    // border: 3px solid var(--orange);
+    opacity: .9;
     transition-duration: .9s;
   }
 }
@@ -74,15 +75,8 @@ a.project-link {
   align-items: center;
   transition-duration: .9s;
   &:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
     transition-duration: .9s;
-  }
-}
-
-a.project-link.github {
-  max-width: 280px;
-  &:hover {
-    transform: scale(1.1);
   }
 }
 
