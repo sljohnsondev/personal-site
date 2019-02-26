@@ -6,6 +6,7 @@ const Code = () => {
     <div className='section-code main'>
       <a className='nav-hook' name='code'></a>
       <h2 className='code-header'>Code</h2>
+      <h5 className='code-subheader'>from school</h5>
       <section className='projects'>
         <article className='project'>
           <a className='project-link' href='https://denver-school-finder.herokuapp.com' target="_blank" rel="noopener"><img className='project-img' src={require('../../Images/projects/school-finder.png')} /></a>
