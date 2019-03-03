@@ -3,7 +3,6 @@ import { render } from 'react-dom'
 import $ from 'jquery';
 import Header from './components/Header'
 import Hero from './components/Hero'
-import Code from './components/Code'
 import About from './components/About'
 import Footer from './components/Footer'
 import './styles'
@@ -20,7 +19,6 @@ class App extends Component {
       <div>
         <Header />
         <Hero />
-        <Code />
         <About />
         <Footer />
       </div>
