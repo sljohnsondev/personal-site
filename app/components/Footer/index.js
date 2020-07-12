@@ -7,7 +7,7 @@ const Footer = () => {
       <a className='nav-hook' name='contact'></a>
       <h2>Contact Me</h2>
       <section className='container-social'>
-        <a className="social-media" href="https://github.com/sljohnson32" target="_blank" rel="noopener">
+        <a className="social-media" href="https://github.com/sljohnsondev" target="_blank" rel="noopener">
           <img src={require("../../Images/social/github.png")} alt="Sam's GitHub profile"/></a> |
         <a className="social-media" href="https://www.instagram.com/sljohnson_" target="_blank" rel="noopener">
           <img src={require("../../Images/social/instagram.png")} alt="Sam's Instagram profile"/></a>
